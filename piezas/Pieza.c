@@ -3,3 +3,9 @@
 //
 
 #include "Pieza.h"
+
+typedef struct {
+    char nombre[50];
+    int posFila;
+    int posCol;
+} Pieza;
