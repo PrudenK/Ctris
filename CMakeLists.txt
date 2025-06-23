@@ -3,7 +3,12 @@ project(Ctris C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_library(Ctris STATIC
+
+add_executable(Ctris
+        main.c
         piezas/Pieza.c
-        piezas/Pieza.h
-        main.c)
+        tablero/crear_tablero.c
+)
+
+include_directories(utils, tablero, piezas)
+

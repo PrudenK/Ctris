@@ -1,0 +1,4 @@
+# ninja log v6
+1	8	1750687529556667276	CMakeFiles/Ctris.dir/piezas/Pieza.c.o	5da7c3d7c218f4cf
+1	15	1750687529556667276	CMakeFiles/Ctris.dir/main.c.o	7a0dab548be219f
+15	172	1750687529570667066	libCtris.a	ec249b0d5820a5c4
