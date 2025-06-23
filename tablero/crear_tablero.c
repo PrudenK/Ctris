@@ -16,3 +16,12 @@ void cargar_tablero_principal(int tablero[FILAS][COLUMNAS]) {
         }
     }
 }
+
+void imprimir_tablero(int tablero[FILAS][COLUMNAS]) {
+    for (int i = 0; i < FILAS; i++) {
+        for (int j = 0; j < COLUMNAS; j++) {
+            printf("%d ", tablero[i][j]);
+        }
+        printf("\n");
+    }
+}
