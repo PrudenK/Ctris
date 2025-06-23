@@ -1,0 +1,3 @@
+/home/pruden/CLionProjects/Ctris/cmake-build-debug/CMakeFiles/Ctris.dir
+/home/pruden/CLionProjects/Ctris/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/pruden/CLionProjects/Ctris/cmake-build-debug/CMakeFiles/rebuild_cache.dir
