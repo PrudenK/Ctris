@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o.d"
   "CMakeFiles/Ctris.dir/metodos/piezas/pintar/pintar.c.o"
   "CMakeFiles/Ctris.dir/metodos/piezas/pintar/pintar.c.o.d"
+  "CMakeFiles/Ctris.dir/metodos/teclado/teclado.c.o"
+  "CMakeFiles/Ctris.dir/metodos/teclado/teclado.c.o.d"
   "CMakeFiles/Ctris.dir/piezas/Pieza.c.o"
   "CMakeFiles/Ctris.dir/piezas/Pieza.c.o.d"
   "CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o"

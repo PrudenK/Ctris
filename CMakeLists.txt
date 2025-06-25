@@ -17,6 +17,8 @@ add_executable(Ctris
         metodos/piezas/limpiar/limpiar.h
         metodos/mover/bajar/bajar_3x2.c
         metodos/mover/bajar/bajar_3x2.h
+        metodos/teclado/teclado.c
+        metodos/teclado/teclado.h
 )
 
 include_directories(
@@ -28,4 +30,5 @@ include_directories(
         metodos/piezas/pintar
         metodos/piezas/limpiar
         metodos/mover/bajar
+        metodos/teclado
 )

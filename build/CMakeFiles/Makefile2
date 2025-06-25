@@ -81,12 +81,12 @@ clean: CMakeFiles/Ctris.dir/clean
 CMakeFiles/Ctris.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pruden/CLionProjects/Ctris/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target Ctris"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pruden/CLionProjects/Ctris/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target Ctris"
 .PHONY : CMakeFiles/Ctris.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Ctris.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pruden/CLionProjects/Ctris/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pruden/CLionProjects/Ctris/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Ctris.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pruden/CLionProjects/Ctris/build/CMakeFiles 0
 .PHONY : CMakeFiles/Ctris.dir/rule

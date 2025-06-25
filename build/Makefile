@@ -225,6 +225,30 @@ metodos/piezas/pintar/pintar.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/piezas/pintar/pintar.c.s
 .PHONY : metodos/piezas/pintar/pintar.c.s
 
+metodos/teclado/teclado.o: metodos/teclado/teclado.c.o
+.PHONY : metodos/teclado/teclado.o
+
+# target to build an object file
+metodos/teclado/teclado.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/teclado/teclado.c.o
+.PHONY : metodos/teclado/teclado.c.o
+
+metodos/teclado/teclado.i: metodos/teclado/teclado.c.i
+.PHONY : metodos/teclado/teclado.i
+
+# target to preprocess a source file
+metodos/teclado/teclado.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/teclado/teclado.c.i
+.PHONY : metodos/teclado/teclado.c.i
+
+metodos/teclado/teclado.s: metodos/teclado/teclado.c.s
+.PHONY : metodos/teclado/teclado.s
+
+# target to generate assembly for a file
+metodos/teclado/teclado.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/teclado/teclado.c.s
+.PHONY : metodos/teclado/teclado.c.s
+
 piezas/Pieza.o: piezas/Pieza.c.o
 .PHONY : piezas/Pieza.o
 
@@ -318,6 +342,9 @@ help:
 	@echo "... metodos/piezas/pintar/pintar.o"
 	@echo "... metodos/piezas/pintar/pintar.i"
 	@echo "... metodos/piezas/pintar/pintar.s"
+	@echo "... metodos/teclado/teclado.o"
+	@echo "... metodos/teclado/teclado.i"
+	@echo "... metodos/teclado/teclado.s"
 	@echo "... piezas/Pieza.o"
 	@echo "... piezas/Pieza.i"
 	@echo "... piezas/Pieza.s"

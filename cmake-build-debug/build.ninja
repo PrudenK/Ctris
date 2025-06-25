@@ -52,51 +52,58 @@ build cmake_object_order_depends_target_Ctris: phony || .
 build CMakeFiles/Ctris.dir/main.c.o: C_COMPILER__Ctris_unscanned_Debug /home/pruden/CLionProjects/Ctris/main.c || cmake_object_order_depends_target_Ctris
   DEP_FILE = CMakeFiles/Ctris.dir/main.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/pruden/CLionProjects/Ctris/utils -I/home/pruden/CLionProjects/Ctris/tablero -I/home/pruden/CLionProjects/Ctris/piezas -I/home/pruden/CLionProjects/Ctris/metodos -I/home/pruden/CLionProjects/Ctris/metodos/piezas -I/home/pruden/CLionProjects/Ctris/metodos/piezas/pintar -I/home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar -I/home/pruden/CLionProjects/Ctris/metodos/mover/bajar
+  INCLUDES = -I/home/pruden/CLionProjects/Ctris/utils -I/home/pruden/CLionProjects/Ctris/tablero -I/home/pruden/CLionProjects/Ctris/piezas -I/home/pruden/CLionProjects/Ctris/metodos -I/home/pruden/CLionProjects/Ctris/metodos/piezas -I/home/pruden/CLionProjects/Ctris/metodos/piezas/pintar -I/home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar -I/home/pruden/CLionProjects/Ctris/metodos/mover/bajar -I/home/pruden/CLionProjects/Ctris/metodos/teclado
   OBJECT_DIR = CMakeFiles/Ctris.dir
   OBJECT_FILE_DIR = CMakeFiles/Ctris.dir
 
 build CMakeFiles/Ctris.dir/piezas/Pieza.c.o: C_COMPILER__Ctris_unscanned_Debug /home/pruden/CLionProjects/Ctris/piezas/Pieza.c || cmake_object_order_depends_target_Ctris
   DEP_FILE = CMakeFiles/Ctris.dir/piezas/Pieza.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/pruden/CLionProjects/Ctris/utils -I/home/pruden/CLionProjects/Ctris/tablero -I/home/pruden/CLionProjects/Ctris/piezas -I/home/pruden/CLionProjects/Ctris/metodos -I/home/pruden/CLionProjects/Ctris/metodos/piezas -I/home/pruden/CLionProjects/Ctris/metodos/piezas/pintar -I/home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar -I/home/pruden/CLionProjects/Ctris/metodos/mover/bajar
+  INCLUDES = -I/home/pruden/CLionProjects/Ctris/utils -I/home/pruden/CLionProjects/Ctris/tablero -I/home/pruden/CLionProjects/Ctris/piezas -I/home/pruden/CLionProjects/Ctris/metodos -I/home/pruden/CLionProjects/Ctris/metodos/piezas -I/home/pruden/CLionProjects/Ctris/metodos/piezas/pintar -I/home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar -I/home/pruden/CLionProjects/Ctris/metodos/mover/bajar -I/home/pruden/CLionProjects/Ctris/metodos/teclado
   OBJECT_DIR = CMakeFiles/Ctris.dir
   OBJECT_FILE_DIR = CMakeFiles/Ctris.dir/piezas
 
 build CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: C_COMPILER__Ctris_unscanned_Debug /home/pruden/CLionProjects/Ctris/tablero/crear_tablero.c || cmake_object_order_depends_target_Ctris
   DEP_FILE = CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/pruden/CLionProjects/Ctris/utils -I/home/pruden/CLionProjects/Ctris/tablero -I/home/pruden/CLionProjects/Ctris/piezas -I/home/pruden/CLionProjects/Ctris/metodos -I/home/pruden/CLionProjects/Ctris/metodos/piezas -I/home/pruden/CLionProjects/Ctris/metodos/piezas/pintar -I/home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar -I/home/pruden/CLionProjects/Ctris/metodos/mover/bajar
+  INCLUDES = -I/home/pruden/CLionProjects/Ctris/utils -I/home/pruden/CLionProjects/Ctris/tablero -I/home/pruden/CLionProjects/Ctris/piezas -I/home/pruden/CLionProjects/Ctris/metodos -I/home/pruden/CLionProjects/Ctris/metodos/piezas -I/home/pruden/CLionProjects/Ctris/metodos/piezas/pintar -I/home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar -I/home/pruden/CLionProjects/Ctris/metodos/mover/bajar -I/home/pruden/CLionProjects/Ctris/metodos/teclado
   OBJECT_DIR = CMakeFiles/Ctris.dir
   OBJECT_FILE_DIR = CMakeFiles/Ctris.dir/tablero
 
 build CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o: C_COMPILER__Ctris_unscanned_Debug /home/pruden/CLionProjects/Ctris/piezas/Pieza_T.c || cmake_object_order_depends_target_Ctris
   DEP_FILE = CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/pruden/CLionProjects/Ctris/utils -I/home/pruden/CLionProjects/Ctris/tablero -I/home/pruden/CLionProjects/Ctris/piezas -I/home/pruden/CLionProjects/Ctris/metodos -I/home/pruden/CLionProjects/Ctris/metodos/piezas -I/home/pruden/CLionProjects/Ctris/metodos/piezas/pintar -I/home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar -I/home/pruden/CLionProjects/Ctris/metodos/mover/bajar
+  INCLUDES = -I/home/pruden/CLionProjects/Ctris/utils -I/home/pruden/CLionProjects/Ctris/tablero -I/home/pruden/CLionProjects/Ctris/piezas -I/home/pruden/CLionProjects/Ctris/metodos -I/home/pruden/CLionProjects/Ctris/metodos/piezas -I/home/pruden/CLionProjects/Ctris/metodos/piezas/pintar -I/home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar -I/home/pruden/CLionProjects/Ctris/metodos/mover/bajar -I/home/pruden/CLionProjects/Ctris/metodos/teclado
   OBJECT_DIR = CMakeFiles/Ctris.dir
   OBJECT_FILE_DIR = CMakeFiles/Ctris.dir/piezas
 
 build CMakeFiles/Ctris.dir/metodos/piezas/pintar/pintar.c.o: C_COMPILER__Ctris_unscanned_Debug /home/pruden/CLionProjects/Ctris/metodos/piezas/pintar/pintar.c || cmake_object_order_depends_target_Ctris
   DEP_FILE = CMakeFiles/Ctris.dir/metodos/piezas/pintar/pintar.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/pruden/CLionProjects/Ctris/utils -I/home/pruden/CLionProjects/Ctris/tablero -I/home/pruden/CLionProjects/Ctris/piezas -I/home/pruden/CLionProjects/Ctris/metodos -I/home/pruden/CLionProjects/Ctris/metodos/piezas -I/home/pruden/CLionProjects/Ctris/metodos/piezas/pintar -I/home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar -I/home/pruden/CLionProjects/Ctris/metodos/mover/bajar
+  INCLUDES = -I/home/pruden/CLionProjects/Ctris/utils -I/home/pruden/CLionProjects/Ctris/tablero -I/home/pruden/CLionProjects/Ctris/piezas -I/home/pruden/CLionProjects/Ctris/metodos -I/home/pruden/CLionProjects/Ctris/metodos/piezas -I/home/pruden/CLionProjects/Ctris/metodos/piezas/pintar -I/home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar -I/home/pruden/CLionProjects/Ctris/metodos/mover/bajar -I/home/pruden/CLionProjects/Ctris/metodos/teclado
   OBJECT_DIR = CMakeFiles/Ctris.dir
   OBJECT_FILE_DIR = CMakeFiles/Ctris.dir/metodos/piezas/pintar
 
 build CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o: C_COMPILER__Ctris_unscanned_Debug /home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.c || cmake_object_order_depends_target_Ctris
   DEP_FILE = CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/pruden/CLionProjects/Ctris/utils -I/home/pruden/CLionProjects/Ctris/tablero -I/home/pruden/CLionProjects/Ctris/piezas -I/home/pruden/CLionProjects/Ctris/metodos -I/home/pruden/CLionProjects/Ctris/metodos/piezas -I/home/pruden/CLionProjects/Ctris/metodos/piezas/pintar -I/home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar -I/home/pruden/CLionProjects/Ctris/metodos/mover/bajar
+  INCLUDES = -I/home/pruden/CLionProjects/Ctris/utils -I/home/pruden/CLionProjects/Ctris/tablero -I/home/pruden/CLionProjects/Ctris/piezas -I/home/pruden/CLionProjects/Ctris/metodos -I/home/pruden/CLionProjects/Ctris/metodos/piezas -I/home/pruden/CLionProjects/Ctris/metodos/piezas/pintar -I/home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar -I/home/pruden/CLionProjects/Ctris/metodos/mover/bajar -I/home/pruden/CLionProjects/Ctris/metodos/teclado
   OBJECT_DIR = CMakeFiles/Ctris.dir
   OBJECT_FILE_DIR = CMakeFiles/Ctris.dir/metodos/piezas/limpiar
 
 build CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o: C_COMPILER__Ctris_unscanned_Debug /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x2.c || cmake_object_order_depends_target_Ctris
   DEP_FILE = CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -I/home/pruden/CLionProjects/Ctris/utils -I/home/pruden/CLionProjects/Ctris/tablero -I/home/pruden/CLionProjects/Ctris/piezas -I/home/pruden/CLionProjects/Ctris/metodos -I/home/pruden/CLionProjects/Ctris/metodos/piezas -I/home/pruden/CLionProjects/Ctris/metodos/piezas/pintar -I/home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar -I/home/pruden/CLionProjects/Ctris/metodos/mover/bajar
+  INCLUDES = -I/home/pruden/CLionProjects/Ctris/utils -I/home/pruden/CLionProjects/Ctris/tablero -I/home/pruden/CLionProjects/Ctris/piezas -I/home/pruden/CLionProjects/Ctris/metodos -I/home/pruden/CLionProjects/Ctris/metodos/piezas -I/home/pruden/CLionProjects/Ctris/metodos/piezas/pintar -I/home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar -I/home/pruden/CLionProjects/Ctris/metodos/mover/bajar -I/home/pruden/CLionProjects/Ctris/metodos/teclado
   OBJECT_DIR = CMakeFiles/Ctris.dir
   OBJECT_FILE_DIR = CMakeFiles/Ctris.dir/metodos/mover/bajar
+
+build CMakeFiles/Ctris.dir/metodos/teclado/teclado.c.o: C_COMPILER__Ctris_unscanned_Debug /home/pruden/CLionProjects/Ctris/metodos/teclado/teclado.c || cmake_object_order_depends_target_Ctris
+  DEP_FILE = CMakeFiles/Ctris.dir/metodos/teclado/teclado.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/pruden/CLionProjects/Ctris/utils -I/home/pruden/CLionProjects/Ctris/tablero -I/home/pruden/CLionProjects/Ctris/piezas -I/home/pruden/CLionProjects/Ctris/metodos -I/home/pruden/CLionProjects/Ctris/metodos/piezas -I/home/pruden/CLionProjects/Ctris/metodos/piezas/pintar -I/home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar -I/home/pruden/CLionProjects/Ctris/metodos/mover/bajar -I/home/pruden/CLionProjects/Ctris/metodos/teclado
+  OBJECT_DIR = CMakeFiles/Ctris.dir
+  OBJECT_FILE_DIR = CMakeFiles/Ctris.dir/metodos/teclado
 
 
 # =============================================================================
@@ -106,7 +113,7 @@ build CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o: C_COMPILER__Ctris_
 #############################################
 # Link the executable Ctris
 
-build Ctris: C_EXECUTABLE_LINKER__Ctris_Debug CMakeFiles/Ctris.dir/main.c.o CMakeFiles/Ctris.dir/piezas/Pieza.c.o CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o CMakeFiles/Ctris.dir/metodos/piezas/pintar/pintar.c.o CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o
+build Ctris: C_EXECUTABLE_LINKER__Ctris_Debug CMakeFiles/Ctris.dir/main.c.o CMakeFiles/Ctris.dir/piezas/Pieza.c.o CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o CMakeFiles/Ctris.dir/metodos/piezas/pintar/pintar.c.o CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o CMakeFiles/Ctris.dir/metodos/teclado/teclado.c.o
   DEP_FILE = CMakeFiles/Ctris.dir/link.d
   FLAGS = -g
   LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/Ctris.dir/link.d
