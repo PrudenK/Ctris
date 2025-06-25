@@ -21,6 +21,8 @@ add_executable(Ctris
         metodos/teclado/teclado.h
         metodos/bolsa_piezas/bolsa_piezas.c
         metodos/bolsa_piezas/bolsa_piezas.h
+        metodos/mover/lados/lados_3x2.c
+        metodos/mover/lados/lados_3x2.h
 )
 
 include_directories(
