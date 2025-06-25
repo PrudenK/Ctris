@@ -21,10 +21,26 @@ void limpiar_generico(Pieza *self) {
     printf("Limpiando pieza en (%d, %d)\n", self->fila, self->col);
 }
 
+bool bajar_generico(Pieza *self) {
+    printf("Bajar");
+    return true;
+}
+
+void derecha_generico(Pieza *self) {
+    printf("Derecha");
+}
+
+void izquierda_generico(Pieza *self) {
+    printf("izquierda");
+}
+
 const PiezaMetodos metodos_base = {
     .pintar = pintar_generico,
     .rotar = rotar_generico,
-    .limpiar = limpiar_generico
+    .limpiar = limpiar_generico,
+    .bajar = bajar_generico,
+    .derecha = derecha_generico,
+    .izquierda = izquierda_generico
 };
 
 Pieza *crear_pieza_base(int fila, int col) {

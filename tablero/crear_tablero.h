@@ -4,9 +4,8 @@
 
 #ifndef CREAR_TABLERO_H
 #define CREAR_TABLERO_H
-#include "crear_tablero.c"
 
-void cargar_tablero_principal(int tablero[FILAS][COLUMNAS]);
-void imprimir_tablero(int tablero[FILAS][COLUMNAS]);
+void cargar_tablero_principal();
+void imprimir_tablero();
 
 #endif //CREAR_TABLERO_H

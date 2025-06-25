@@ -1,4 +1,18 @@
 # ninja log v6
-1	8	1750687529556667276	CMakeFiles/Ctris.dir/piezas/Pieza.c.o	5da7c3d7c218f4cf
-1	15	1750687529556667276	CMakeFiles/Ctris.dir/main.c.o	7a0dab548be219f
+0	20	1750825685586625091	CMakeFiles/Ctris.dir/piezas/Pieza.c.o	79b5e94cb136c0b0
+0	18	1750825685586625091	CMakeFiles/Ctris.dir/main.c.o	51ac304a1895cd6f
 15	172	1750687529570667066	libCtris.a	ec249b0d5820a5c4
+1	18	1750825685587625084	CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o	ed56158cac9b97b9
+1	20	1750825685587625084	CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o	bfae372662c1e887
+0	16	1750825956666805358	CMakeFiles/Ctris.dir/main.c.o	51ac304a1895cd6f
+0	16	1750825956666805358	CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o	ed56158cac9b97b9
+1	18	1750825984424636329	CMakeFiles/Ctris.dir/main.c.o	51ac304a1895cd6f
+1	16	1750826056496209107	CMakeFiles/Ctris.dir/main.c.o	51ac304a1895cd6f
+0	15	1750826102114946687	CMakeFiles/Ctris.dir/main.c.o	51ac304a1895cd6f
+0	16	1750826153649656858	CMakeFiles/Ctris.dir/main.c.o	51ac304a1895cd6f
+0	16	1750826238248194591	CMakeFiles/Ctris.dir/main.c.o	51ac304a1895cd6f
+1	16	1750826245235157104	CMakeFiles/Ctris.dir/main.c.o	51ac304a1895cd6f
+0	17	1750826286853935808	CMakeFiles/Ctris.dir/main.c.o	51ac304a1895cd6f
+17	31	1750826286870935718	Ctris	9a3d00d38706ae1b
+1	16	1750826315229786798	CMakeFiles/Ctris.dir/main.c.o	51ac304a1895cd6f
+16	30	1750826315244786719	Ctris	9a3d00d38706ae1b

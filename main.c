@@ -1,16 +1,18 @@
-#include "utils/constantes.h"
 #include "tablero/crear_tablero.h"
 #include <unistd.h>
 
-int main() {
-    int tablero[FILAS][COLUMNAS] = {0};
+#include "utils/constantes.h"
 
-    cargar_tablero_principal(tablero);
+int tablero[FILAS][COLUMNAS] = {0};
+
+
+int main() {
+    cargar_tablero_principal();
 
 
 
     for (int i = 0; i< 5; i++) {
-        imprimir_tablero(tablero);
+        imprimir_tablero();
         usleep(1500000);
     }
 

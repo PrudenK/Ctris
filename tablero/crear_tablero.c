@@ -3,10 +3,11 @@
 //
 
 #include <stdio.h>
+
+#include "tablero.h"
 #include "../utils/constantes.h"
 
-
-void cargar_tablero_principal(int tablero[FILAS][COLUMNAS]) {
+void cargar_tablero_principal() {
     for (int i = 0; i < FILAS; i++) {
         for (int j = 0; j < COLUMNAS; j++) {
             if (i == FILAS -1) {
@@ -18,11 +19,12 @@ void cargar_tablero_principal(int tablero[FILAS][COLUMNAS]) {
     }
 }
 
-void imprimir_tablero(int tablero[FILAS][COLUMNAS]) {
+void imprimir_tablero() {
     for (int i = 0; i < FILAS; i++) {
         printf("\033[H\033[J");
     }
 
+    printf("TABLERO DE LA HOSTIA\n");
 
     for (int i = 0; i < FILAS; i++) {
         for (int j = 0; j < COLUMNAS; j++) {

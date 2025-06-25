@@ -9,17 +9,18 @@ typedef struct {
     void (*pintar)(Pieza *self);
     bool (*rotar)(Pieza *self);
     void (*limpiar)(Pieza *self);
+    bool (*bajar)(Pieza *self);
+    void (*derecha)(Pieza *self);
+    void (*izquierda)(Pieza *self);
 } PiezaMetodos;
 
 struct Pieza {
     const PiezaMetodos *v_metodos;
-    //char nombre[50];
-    //int num_pieza, num_centro;
+    char nombre[50];
+    int num_pieza, num_centro;
     int fila, col;
     int orientacion;
-    //int n_rotaciones;
-    //int ancho, alto;
-    //int ***formas;
+    int ***formas;
     bool condicion_especial;
 };
 
