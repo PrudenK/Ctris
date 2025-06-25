@@ -45,8 +45,9 @@ static void pintar_T(Pieza *pieza) {
     int fila_centro = -1, col_centro = -1;
     pintar(pieza, &fila_centro, &col_centro);
 
-    ((Pieza_T *)pieza)->fila_centro = fila_centro;
-    ((Pieza_T *)pieza)->columna_centro = col_centro;
+    printf("adsfas");
+   // ((Pieza_T *)pieza)->fila_centro = fila_centro;
+   // ((Pieza_T *)pieza)->columna_centro = col_centro;
 }
 
 static bool rotar_T(Pieza *pieza) {
@@ -89,7 +90,20 @@ Pieza_T *crear_pieza_T(int fila, int col) {
     pieza_T->base.col = col;
     pieza_T->base.orientacion = 0;
     pieza_T->base.condicion_especial = false;
-    pieza_T->base.formas = (int ***)forma_T;
+
+    int ***formas = malloc(NUM_ROTACIONES_M_T * sizeof(int**));
+    for (int r = 0; r < NUM_ROTACIONES_M_T; r++) {
+        formas[r] = malloc(ALTO_M_T * sizeof(int*));
+        for (int i = 0; i < ALTO_M_T; i++) {
+            formas[r][i] = malloc(ANCHO_M_T * sizeof(int));
+            for (int j = 0; j < ANCHO_M_T; j++) {
+                formas[r][i][j] = forma_T[r][i][j];
+            }
+        }
+    }
+
+
+    pieza_T->base.formas = formas;
 
     pieza_T->fila_centro = fila;
     pieza_T->columna_centro = col + 1;

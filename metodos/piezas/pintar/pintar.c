@@ -4,9 +4,8 @@
 
 #include "pintar.h"
 
-#include "Pieza.h"
-#include "../utils/constantes.h"
-#include "../tablero/tablero.h"
+#include "constantes.h"
+#include "tablero.h"
 
 void pintar(Pieza *pieza, int *fila_centro, int *col_centro) {
     int **forma = pieza->formas[pieza->orientacion];

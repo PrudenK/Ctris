@@ -49,15 +49,31 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/home/pruden/CLionProjects/Ctris/utils,"
+					"path" : "/home/pruden/CLionProjects/Ctris/utils"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/home/pruden/CLionProjects/Ctris/tablero,"
+					"path" : "/home/pruden/CLionProjects/Ctris/tablero"
 				},
 				{
 					"backtrace" : 2,
 					"path" : "/home/pruden/CLionProjects/Ctris/piezas"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/pruden/CLionProjects/Ctris/metodos"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/pruden/CLionProjects/Ctris/metodos/piezas"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/pruden/CLionProjects/Ctris/metodos/piezas/pintar"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar"
 				}
 			],
 			"language" : "C",

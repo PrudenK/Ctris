@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/Ctris.dir/main.c.o"
+  "CMakeFiles/Ctris.dir/main.c.o.d"
+  "CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o"
+  "CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o.d"
+  "CMakeFiles/Ctris.dir/metodos/piezas/pintar/pintar.c.o"
+  "CMakeFiles/Ctris.dir/metodos/piezas/pintar/pintar.c.o.d"
+  "CMakeFiles/Ctris.dir/piezas/Pieza.c.o"
+  "CMakeFiles/Ctris.dir/piezas/Pieza.c.o.d"
+  "CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o"
+  "CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o.d"
+  "CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o"
+  "CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o.d"
+  "Ctris"
+  "Ctris.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/Ctris.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

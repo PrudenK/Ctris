@@ -3,9 +3,8 @@
 //
 
 #include "limpiar.h"
+#include "tablero.h"
 
-#include "Pieza.h"
-#include "../tablero/tablero.h"
 void limpiar_pieza(Pieza *pieza) {
     for (int i = 0; i < pieza->alto_m; i++) {
         for (int j = 0; j < pieza->ancho_m; j++) {

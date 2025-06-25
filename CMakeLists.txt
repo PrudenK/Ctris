@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.31)
+cmake_minimum_required(VERSION 3.16)
 project(Ctris C)
 
 set(CMAKE_C_STANDARD 11)
@@ -17,4 +17,12 @@ add_executable(Ctris
         metodos/piezas/limpiar/limpiar.h
 )
 
-include_directories(utils, tablero, piezas)
+include_directories(
+        utils
+        tablero
+        piezas
+        metodos
+        metodos/piezas
+        metodos/piezas/pintar
+        metodos/piezas/limpiar
+)
