@@ -6,7 +6,8 @@
 #include <string.h>
 #include <stdio.h>
 #include "../tablero/tablero.h"
-#include "../metodos/piezas/pintar.h"
+#include "../metodos/piezas/pintar/pintar.h"
+#include "../metodos/piezas/limpiar/limpiar.h"
 
 
 #define NUM_PIEZA_T 3
@@ -54,13 +55,12 @@ static bool rotar_T(Pieza *pieza) {
 }
 
 static void limpiar_T(Pieza *pieza) {
-    printf("Limpiando Pieza_T\n");
-
+    limpiar_pieza(pieza);
 }
 
 static bool bajar_T(Pieza *pieza) {
     Pieza_T *self = (Pieza_T *)pieza;
-    return false;
+    return true;
 }
 
 static void derecha_T(Pieza *pieza) {

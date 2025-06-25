@@ -11,8 +11,10 @@ add_executable(Ctris
         piezas/Pieza_T.c
         piezas/Pieza_T.h
         tablero/tablero.h
-        metodos/piezas/pintar.c
-        metodos/piezas/pintar.h
+        metodos/piezas/pintar/pintar.c
+        metodos/piezas/pintar/pintar.h
+        metodos/piezas/limpiar/limpiar.c
+        metodos/piezas/limpiar/limpiar.h
 )
 
 include_directories(utils, tablero, piezas)
