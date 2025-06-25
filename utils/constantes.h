@@ -8,5 +8,6 @@
 #define FILAS 15
 #define COLUMNAS 10
 #define SUELO 9
+#define BLANCO 0
 
 #endif //CONSTANTES_H

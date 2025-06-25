@@ -21,6 +21,7 @@ struct Pieza {
     int fila, col;
     int orientacion;
     int ***formas;
+    int ancho_m, alto_m, n_rotaciones_m;
     bool condicion_especial;
 };
 

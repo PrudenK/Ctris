@@ -31,7 +31,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 16,
+				"line" : 18,
 				"parent" : 0
 			}
 		]
@@ -74,7 +74,8 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				6
 			]
 		}
 	],
@@ -110,7 +111,8 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				6
 			]
 		},
 		{
@@ -118,7 +120,8 @@
 			"sourceIndexes" : 
 			[
 				4,
-				5
+				5,
+				7
 			]
 		}
 	],
@@ -156,6 +159,17 @@
 		{
 			"backtrace" : 1,
 			"path" : "tablero/tablero.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "metodos/piezas/pintar.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "metodos/piezas/pintar.h",
 			"sourceGroupIndex" : 1
 		}
 	],

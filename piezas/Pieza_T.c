@@ -5,14 +5,19 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
+#include "../tablero/tablero.h"
+#include "../metodos/piezas/pintar.h"
 
 
 #define NUM_PIEZA_T 3
 #define CENTRO_T 38
 #define COLOR_T 'T'
 #define BLANCO 0
+#define NUM_ROTACIONES_M_T 4
+#define ANCHO_M_T 3
+#define ALTO_M_T 3
 
-static int forma_T[4][3][3] = {
+static int forma_T[NUM_ROTACIONES_M_T][ANCHO_M_T][ALTO_M_T] = {
     {
         {BLANCO, NUM_PIEZA_T, BLANCO},
         {NUM_PIEZA_T, CENTRO_T, NUM_PIEZA_T},
@@ -36,11 +41,11 @@ static int forma_T[4][3][3] = {
 };
 
 static void pintar_T(Pieza *pieza) {
-    Pieza_T *self = (Pieza_T *)pieza;
-    printf("Pintando Pieza_T en (%d, %d) orientación %d\n",
-           pieza->fila, pieza->col, pieza->orientacion);
-    self->filaCentro = pieza->fila;
-    self->columnaCentro = pieza->col + 1;
+    int fila_centro = -1, col_centro = -1;
+    pintar(pieza, &fila_centro, &col_centro);
+
+    ((Pieza_T *)pieza)->fila_centro = fila_centro;
+    ((Pieza_T *)pieza)->columna_centro = col_centro;
 }
 
 static bool rotar_T(Pieza *pieza) {
@@ -50,16 +55,31 @@ static bool rotar_T(Pieza *pieza) {
 
 static void limpiar_T(Pieza *pieza) {
     printf("Limpiando Pieza_T\n");
+
 }
 
-// VTable específica
+static bool bajar_T(Pieza *pieza) {
+    Pieza_T *self = (Pieza_T *)pieza;
+    return false;
+}
+
+static void derecha_T(Pieza *pieza) {
+    Pieza_T *self = (Pieza_T *)pieza;
+}
+
+static void izquierda_T(Pieza *pieza) {
+    Pieza_T *self = (Pieza_T *)pieza;
+}
+
 static const PiezaMetodos metodos_T = {
     .pintar = pintar_T,
     .rotar = rotar_T,
-    .limpiar = limpiar_T
+    .limpiar = limpiar_T,
+    .bajar = bajar_T,
+    .derecha = derecha_T,
+    .izquierda = izquierda_T
 };
 
-// Constructor
 Pieza_T *crear_pieza_T(int fila, int col) {
     Pieza_T *pieza_T = malloc(sizeof(Pieza_T));
     if (!pieza_T) return NULL;
@@ -70,11 +90,16 @@ Pieza_T *crear_pieza_T(int fila, int col) {
     pieza_T->base.orientacion = 0;
     pieza_T->base.condicion_especial = false;
     pieza_T->base.formas = (int ***)forma_T;
+
+    pieza_T->fila_centro = fila;
+    pieza_T->columna_centro = col + 1;
+
+    // Constantes BASE
+    pieza_T->base.n_rotaciones_m = NUM_ROTACIONES_M_T;
+    pieza_T->base.ancho_m = ANCHO_M_T;
+    pieza_T->base.alto_m = ALTO_M_T;
     pieza_T->base.num_pieza = NUM_PIEZA_T;
     pieza_T->base.num_centro = CENTRO_T;
-
-    pieza_T->filaCentro = fila;
-    pieza_T->columnaCentro = col + 1;
 
     strcpy(pieza_T->base.nombre, "Pieza_T");
     return pieza_T;
