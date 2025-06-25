@@ -70,6 +70,13 @@ build CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: C_COMPILER__Ctris_unscanne
   OBJECT_DIR = CMakeFiles/Ctris.dir
   OBJECT_FILE_DIR = CMakeFiles/Ctris.dir/tablero
 
+build CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o: C_COMPILER__Ctris_unscanned_Debug /home/pruden/CLionProjects/Ctris/piezas/Pieza_T.c || cmake_object_order_depends_target_Ctris
+  DEP_FILE = CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/pruden/CLionProjects/Ctris/utils, -I/home/pruden/CLionProjects/Ctris/tablero, -I/home/pruden/CLionProjects/Ctris/piezas
+  OBJECT_DIR = CMakeFiles/Ctris.dir
+  OBJECT_FILE_DIR = CMakeFiles/Ctris.dir/piezas
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Ctris
@@ -78,7 +85,7 @@ build CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: C_COMPILER__Ctris_unscanne
 #############################################
 # Link the executable Ctris
 
-build Ctris: C_EXECUTABLE_LINKER__Ctris_Debug CMakeFiles/Ctris.dir/main.c.o CMakeFiles/Ctris.dir/piezas/Pieza.c.o CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o
+build Ctris: C_EXECUTABLE_LINKER__Ctris_Debug CMakeFiles/Ctris.dir/main.c.o CMakeFiles/Ctris.dir/piezas/Pieza.c.o CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o
   DEP_FILE = CMakeFiles/Ctris.dir/link.d
   FLAGS = -g
   LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/Ctris.dir/link.d

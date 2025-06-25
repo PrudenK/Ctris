@@ -1,8 +1,28 @@
-//
-// Created by pruden on 23/06/25.
-//
-
 #ifndef PIEZA_H
 #define PIEZA_H
 
-#endif //PIEZA_H
+#include <stdbool.h>
+
+typedef struct Pieza Pieza;
+
+typedef struct {
+    void (*pintar)(Pieza *self);
+    bool (*rotar)(Pieza *self);
+    void (*limpiar)(Pieza *self);
+} PiezaMetodos;
+
+struct Pieza {
+    const PiezaMetodos *v_metodos;
+    //char nombre[50];
+    //int num_pieza, num_centro;
+    int fila, col;
+    int orientacion;
+    //int n_rotaciones;
+    //int ancho, alto;
+    //int ***formas;
+    bool condicion_especial;
+};
+
+Pieza *crear_pieza_base(int fila, int col);
+
+#endif

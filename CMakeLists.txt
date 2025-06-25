@@ -8,7 +8,7 @@ add_executable(Ctris
         main.c
         piezas/Pieza.c
         tablero/crear_tablero.c
+        piezas/Pieza_T.c
 )
 
 include_directories(utils, tablero, piezas)
-
