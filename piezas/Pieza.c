@@ -34,13 +34,18 @@ void izquierda_generico(Pieza *self) {
     printf("izquierda");
 }
 
+void free_generico(Pieza *self) {
+    printf("Liberar memoria");
+}
+
 const PiezaMetodos metodos_base = {
     .pintar = pintar_generico,
     .rotar = rotar_generico,
     .limpiar = limpiar_generico,
     .bajar = bajar_generico,
     .derecha = derecha_generico,
-    .izquierda = izquierda_generico
+    .izquierda = izquierda_generico,
+    .free = free_generico
 };
 
 Pieza *crear_pieza_base(int fila, int col) {

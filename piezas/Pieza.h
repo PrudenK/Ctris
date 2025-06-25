@@ -12,6 +12,7 @@ typedef struct {
     bool (*bajar)(Pieza *self);
     void (*derecha)(Pieza *self);
     void (*izquierda)(Pieza *self);
+    void (*free)(Pieza *self);
 } PiezaMetodos;
 
 struct Pieza {

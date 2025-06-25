@@ -45,9 +45,8 @@ static void pintar_T(Pieza *pieza) {
     int fila_centro = -1, col_centro = -1;
     pintar(pieza, &fila_centro, &col_centro);
 
-    printf("adsfas");
-   // ((Pieza_T *)pieza)->fila_centro = fila_centro;
-   // ((Pieza_T *)pieza)->columna_centro = col_centro;
+   ((Pieza_T *)pieza)->fila_centro = fila_centro;
+   ((Pieza_T *)pieza)->columna_centro = col_centro;
 }
 
 static bool rotar_T(Pieza *pieza) {
@@ -72,13 +71,24 @@ static void izquierda_T(Pieza *pieza) {
     Pieza_T *self = (Pieza_T *)pieza;
 }
 
+void free_T(Pieza *pieza) {
+    for (int r = 0; r < NUM_ROTACIONES_M_T; r++) {
+        for (int i = 0; i < ALTO_M_T; i++) {
+            free(pieza->formas[r][i]);
+        }
+        free(pieza->formas[r]);
+    }
+    free(pieza->formas);
+}
+
 static const PiezaMetodos metodos_T = {
     .pintar = pintar_T,
     .rotar = rotar_T,
     .limpiar = limpiar_T,
     .bajar = bajar_T,
     .derecha = derecha_T,
-    .izquierda = izquierda_T
+    .izquierda = izquierda_T,
+    .free = free_T
 };
 
 Pieza_T *crear_pieza_T(int fila, int col) {
@@ -91,6 +101,8 @@ Pieza_T *crear_pieza_T(int fila, int col) {
     pieza_T->base.orientacion = 0;
     pieza_T->base.condicion_especial = false;
 
+
+
     int ***formas = malloc(NUM_ROTACIONES_M_T * sizeof(int**));
     for (int r = 0; r < NUM_ROTACIONES_M_T; r++) {
         formas[r] = malloc(ALTO_M_T * sizeof(int*));
@@ -101,6 +113,8 @@ Pieza_T *crear_pieza_T(int fila, int col) {
             }
         }
     }
+
+
 
 
     pieza_T->base.formas = formas;

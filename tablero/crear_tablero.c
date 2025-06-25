@@ -30,7 +30,9 @@ void imprimir_tablero() {
         for (int j = 0; j < COLUMNAS; j++) {
             if (tablero[i][j] == 9) {
                 printf("\033[90m%d\033[0m ", tablero[i][j]);
-            } else {
+            }else if (tablero[i][j] == 3) {
+                printf("\033[95m%d\033[0m ", tablero[i][j]);
+            }else {
                 printf("%d ", tablero[i][j]);
             }
         }
