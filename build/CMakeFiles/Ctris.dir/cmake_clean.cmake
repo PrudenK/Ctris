@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Ctris.dir/main.c.o"
   "CMakeFiles/Ctris.dir/main.c.o.d"
-  "CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x3.c.o"
-  "CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x3.c.o.d"
+  "CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o"
+  "CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o.d"
   "CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o"
   "CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o.d"
   "CMakeFiles/Ctris.dir/metodos/piezas/pintar/pintar.c.o"

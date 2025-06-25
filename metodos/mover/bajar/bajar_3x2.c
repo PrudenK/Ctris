@@ -5,6 +5,7 @@
 #include "bajar_3x2.h"
 
 #include <stdbool.h>
+#include <stdio.h>
 
 #include "Pieza.h"
 #include "tablero.h"
@@ -14,7 +15,7 @@
 // fc -> fila centro
 // cc -> columna centro
 
-bool bajar_3x2(Pieza *pieza, int d[9]) {
+bool bajar_3x2(Pieza *pieza, const int *d) {
     bool puede_bajar = true;
 
     int orientacion = pieza->orientacion;
@@ -45,6 +46,8 @@ bool bajar_3x2(Pieza *pieza, int d[9]) {
             puede_bajar = false;
             break;
     }
+
+    printf("Puede bajar: %d\n", puede_bajar);
 
     if (puede_bajar) {
         pieza->v_metodos->limpiar(pieza);

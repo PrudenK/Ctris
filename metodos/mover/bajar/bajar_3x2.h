@@ -8,6 +8,6 @@
 
 #include "Pieza.h"
 
-bool bajar_3x2(Pieza *pieza, int d[9]);
+bool bajar_3x2(Pieza *pieza, const int *d);
 
 #endif //BAJAR_3X2_H

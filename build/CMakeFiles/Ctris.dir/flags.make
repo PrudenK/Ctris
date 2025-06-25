@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/pruden/CLionProjects/Ctris/utils -I/home/pruden/CLionProjects/Ctris/tablero -I/home/pruden/CLionProjects/Ctris/piezas -I/home/pruden/CLionProjects/Ctris/metodos -I/home/pruden/CLionProjects/Ctris/metodos/piezas -I/home/pruden/CLionProjects/Ctris/metodos/piezas/pintar -I/home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar
+C_INCLUDES = -I/home/pruden/CLionProjects/Ctris/utils -I/home/pruden/CLionProjects/Ctris/tablero -I/home/pruden/CLionProjects/Ctris/piezas -I/home/pruden/CLionProjects/Ctris/metodos -I/home/pruden/CLionProjects/Ctris/metodos/piezas -I/home/pruden/CLionProjects/Ctris/metodos/piezas/pintar -I/home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar -I/home/pruden/CLionProjects/Ctris/metodos/mover/bajar
 
 C_FLAGS = -std=gnu11
 

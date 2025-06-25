@@ -8,6 +8,7 @@
 #include "../tablero/tablero.h"
 #include "../metodos/piezas/pintar/pintar.h"
 #include "../metodos/piezas/limpiar/limpiar.h"
+#include "mover/bajar/bajar_3x2.h"
 
 
 #define NUM_PIEZA_T 3
@@ -59,8 +60,8 @@ static void limpiar_T(Pieza *pieza) {
 }
 
 static bool bajar_T(Pieza *pieza) {
-    Pieza_T *self = (Pieza_T *)pieza;
-    return true;
+    int d[] = {1, 1, 1, 1, 2, 1, 2, 1, 2, 1};
+    return bajar_3x2(pieza, d);
 }
 
 static void derecha_T(Pieza *pieza) {

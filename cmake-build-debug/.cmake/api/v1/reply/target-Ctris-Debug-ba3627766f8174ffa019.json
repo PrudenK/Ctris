@@ -74,6 +74,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "/home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/pruden/CLionProjects/Ctris/metodos/mover/bajar"
 				}
 			],
 			"language" : "C",

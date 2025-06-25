@@ -27,4 +27,5 @@ include_directories(
         metodos/piezas
         metodos/piezas/pintar
         metodos/piezas/limpiar
+        metodos/mover/bajar
 )

@@ -153,19 +153,19 @@ CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.c -o CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.s
 
-CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x3.c.o: CMakeFiles/Ctris.dir/flags.make
-CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x3.c.o: /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x3.c
-CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x3.c.o: CMakeFiles/Ctris.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pruden/CLionProjects/Ctris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x3.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x3.c.o -MF CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x3.c.o.d -o CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x3.c.o -c /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x3.c
+CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o: CMakeFiles/Ctris.dir/flags.make
+CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o: /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x2.c
+CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o: CMakeFiles/Ctris.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pruden/CLionProjects/Ctris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o -MF CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o.d -o CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o -c /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x2.c
 
-CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x3.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x3.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x3.c > CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x3.c.i
+CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x2.c > CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.i
 
-CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x3.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x3.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x3.c -o CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x3.c.s
+CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x2.c -o CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.s
 
 # Object files for target Ctris
 Ctris_OBJECTS = \
@@ -175,7 +175,7 @@ Ctris_OBJECTS = \
 "CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o" \
 "CMakeFiles/Ctris.dir/metodos/piezas/pintar/pintar.c.o" \
 "CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o" \
-"CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x3.c.o"
+"CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o"
 
 # External object files for target Ctris
 Ctris_EXTERNAL_OBJECTS =
@@ -186,7 +186,7 @@ Ctris: CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o
 Ctris: CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o
 Ctris: CMakeFiles/Ctris.dir/metodos/piezas/pintar/pintar.c.o
 Ctris: CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o
-Ctris: CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x3.c.o
+Ctris: CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o
 Ctris: CMakeFiles/Ctris.dir/build.make
 Ctris: CMakeFiles/Ctris.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/pruden/CLionProjects/Ctris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable Ctris"
