@@ -30,7 +30,7 @@ void cargar_bolsa() {
     int columnaInicial = COLUMNAS / 2;
     //bolsa[0] = (Pieza *)crear_pieza_I(0, columnaInicial);
     //bolsa[1] = (Pieza *)crear_pieza_O(0, columnaInicial);
-    bolsa[0] = (Pieza *)crear_pieza_T(0, columnaInicial);
+    bolsa[0] = (Pieza *)crear_pieza_T(-1, columnaInicial);
     //bolsa[3] = (Pieza *)crear_pieza_S(0, columnaInicial);
     //bolsa[4] = (Pieza *)crear_pieza_Z(0, columnaInicial);
     //bolsa[5] = (Pieza *)crear_pieza_L(0, columnaInicial);

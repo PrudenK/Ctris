@@ -33,4 +33,5 @@ include_directories(
         metodos/piezas/limpiar
         metodos/mover/bajar
         metodos/teclado
+        metodos/bolsa_piezas
 )

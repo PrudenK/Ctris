@@ -153,6 +153,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/main.c.s
 .PHONY : main.c.s
 
+metodos/bolsa_piezas/bolsa_piezas.o: metodos/bolsa_piezas/bolsa_piezas.c.o
+.PHONY : metodos/bolsa_piezas/bolsa_piezas.o
+
+# target to build an object file
+metodos/bolsa_piezas/bolsa_piezas.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/bolsa_piezas/bolsa_piezas.c.o
+.PHONY : metodos/bolsa_piezas/bolsa_piezas.c.o
+
+metodos/bolsa_piezas/bolsa_piezas.i: metodos/bolsa_piezas/bolsa_piezas.c.i
+.PHONY : metodos/bolsa_piezas/bolsa_piezas.i
+
+# target to preprocess a source file
+metodos/bolsa_piezas/bolsa_piezas.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/bolsa_piezas/bolsa_piezas.c.i
+.PHONY : metodos/bolsa_piezas/bolsa_piezas.c.i
+
+metodos/bolsa_piezas/bolsa_piezas.s: metodos/bolsa_piezas/bolsa_piezas.c.s
+.PHONY : metodos/bolsa_piezas/bolsa_piezas.s
+
+# target to generate assembly for a file
+metodos/bolsa_piezas/bolsa_piezas.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/bolsa_piezas/bolsa_piezas.c.s
+.PHONY : metodos/bolsa_piezas/bolsa_piezas.c.s
+
 metodos/mover/bajar/bajar_3x2.o: metodos/mover/bajar/bajar_3x2.c.o
 .PHONY : metodos/mover/bajar/bajar_3x2.o
 
@@ -333,6 +357,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... metodos/bolsa_piezas/bolsa_piezas.o"
+	@echo "... metodos/bolsa_piezas/bolsa_piezas.i"
+	@echo "... metodos/bolsa_piezas/bolsa_piezas.s"
 	@echo "... metodos/mover/bajar/bajar_3x2.o"
 	@echo "... metodos/mover/bajar/bajar_3x2.i"
 	@echo "... metodos/mover/bajar/bajar_3x2.s"

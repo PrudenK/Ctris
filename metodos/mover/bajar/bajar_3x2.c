@@ -47,16 +47,14 @@ bool bajar_3x2(Pieza *pieza, const int *d) {
             break;
     }
 
-    printf("Puede bajar: %d\n", puede_bajar);
-
     if (puede_bajar) {
         pieza->v_metodos->limpiar(pieza);
         pieza->fila += 1;
         pieza->v_metodos->pintar(pieza);
+        return true;
     }else {
         // TODO borrar línea
-        return false;
     }
+    return false;
 
-    return true;
 }

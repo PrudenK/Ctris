@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/pruden/CLionProjects/Ctris/main.c" "CMakeFiles/Ctris.dir/main.c.o" "gcc" "CMakeFiles/Ctris.dir/main.c.o.d"
+  "/home/pruden/CLionProjects/Ctris/metodos/bolsa_piezas/bolsa_piezas.c" "CMakeFiles/Ctris.dir/metodos/bolsa_piezas/bolsa_piezas.c.o" "gcc" "CMakeFiles/Ctris.dir/metodos/bolsa_piezas/bolsa_piezas.c.o.d"
   "/home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x2.c" "CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o" "gcc" "CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o.d"
   "/home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.c" "CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o" "gcc" "CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o.d"
   "/home/pruden/CLionProjects/Ctris/metodos/piezas/pintar/pintar.c" "CMakeFiles/Ctris.dir/metodos/piezas/pintar/pintar.c.o" "gcc" "CMakeFiles/Ctris.dir/metodos/piezas/pintar/pintar.c.o.d"

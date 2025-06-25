@@ -82,6 +82,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "/home/pruden/CLionProjects/Ctris/metodos/teclado"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/pruden/CLionProjects/Ctris/metodos/bolsa_piezas"
 				}
 			],
 			"language" : "C",

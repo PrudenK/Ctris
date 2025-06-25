@@ -53,6 +53,8 @@ void manejar_input(Pieza *pieza) {
                 case 'B':
                     if (pieza->v_metodos->bajar(pieza)) {
                         imprimir_tablero();
+                    }else {
+                        nueva_pieza();
                     }
                     break;
                 case 'C':
