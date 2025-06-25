@@ -42,6 +42,15 @@ CMakeFiles/Ctris.dir/main.c.o
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
+CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x3.c.o
+ /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x3.c
+ /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x3.h
+ /home/pruden/CLionProjects/Ctris/piezas/Pieza.h
+ /home/pruden/CLionProjects/Ctris/utils/constantes.h
+ /home/pruden/CLionProjects/Ctris/tablero/tablero.h
+ /usr/include/stdc-predef.h
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h
+
 CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o
  /home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.c
  /home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.h

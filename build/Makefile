@@ -153,6 +153,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/main.c.s
 .PHONY : main.c.s
 
+metodos/mover/bajar/bajar_3x3.o: metodos/mover/bajar/bajar_3x3.c.o
+.PHONY : metodos/mover/bajar/bajar_3x3.o
+
+# target to build an object file
+metodos/mover/bajar/bajar_3x3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x3.c.o
+.PHONY : metodos/mover/bajar/bajar_3x3.c.o
+
+metodos/mover/bajar/bajar_3x3.i: metodos/mover/bajar/bajar_3x3.c.i
+.PHONY : metodos/mover/bajar/bajar_3x3.i
+
+# target to preprocess a source file
+metodos/mover/bajar/bajar_3x3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x3.c.i
+.PHONY : metodos/mover/bajar/bajar_3x3.c.i
+
+metodos/mover/bajar/bajar_3x3.s: metodos/mover/bajar/bajar_3x3.c.s
+.PHONY : metodos/mover/bajar/bajar_3x3.s
+
+# target to generate assembly for a file
+metodos/mover/bajar/bajar_3x3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x3.c.s
+.PHONY : metodos/mover/bajar/bajar_3x3.c.s
+
 metodos/piezas/limpiar/limpiar.o: metodos/piezas/limpiar/limpiar.c.o
 .PHONY : metodos/piezas/limpiar/limpiar.o
 
@@ -285,6 +309,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... metodos/mover/bajar/bajar_3x3.o"
+	@echo "... metodos/mover/bajar/bajar_3x3.i"
+	@echo "... metodos/mover/bajar/bajar_3x3.s"
 	@echo "... metodos/piezas/limpiar/limpiar.o"
 	@echo "... metodos/piezas/limpiar/limpiar.i"
 	@echo "... metodos/piezas/limpiar/limpiar.s"

@@ -45,8 +45,8 @@ static void pintar_T(Pieza *pieza) {
     int fila_centro = -1, col_centro = -1;
     pintar(pieza, &fila_centro, &col_centro);
 
-   ((Pieza_T *)pieza)->fila_centro = fila_centro;
-   ((Pieza_T *)pieza)->columna_centro = col_centro;
+   pieza->fila_centro = fila_centro;
+   pieza->columna_centro = col_centro;
 }
 
 static bool rotar_T(Pieza *pieza) {
@@ -119,8 +119,8 @@ Pieza_T *crear_pieza_T(int fila, int col) {
 
     pieza_T->base.formas = formas;
 
-    pieza_T->fila_centro = fila;
-    pieza_T->columna_centro = col + 1;
+    pieza_T->base.fila_centro = fila;
+    pieza_T->base.columna_centro = col + 1;
 
     // Constantes BASE
     pieza_T->base.n_rotaciones_m = NUM_ROTACIONES_M_T;

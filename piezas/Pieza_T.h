@@ -7,8 +7,6 @@
 #include "Pieza.h"
 typedef struct {
     Pieza base;
-    int fila_centro;
-    int columna_centro;
 } Pieza_T;
 
 Pieza_T *crear_pieza_T(int fila, int col);

@@ -41,6 +41,14 @@ CMakeFiles/Ctris.dir/main.c.o: /home/pruden/CLionProjects/Ctris/main.c \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
+CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x3.c.o: /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x3.c \
+  /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x3.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
+  /home/pruden/CLionProjects/Ctris/utils/constantes.h \
+  /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
+  /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h
+
 CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o: /home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.c \
   /home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.h \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
@@ -259,6 +267,8 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
 /usr/include/features-time64.h:
@@ -305,13 +315,15 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
-/usr/include/stdlib.h:
-
 /usr/include/x86_64-linux-gnu/bits/confname.h:
 
 /home/pruden/CLionProjects/Ctris/tablero/crear_tablero.h:
 
 /home/pruden/CLionProjects/Ctris/utils/constantes.h:
+
+/usr/include/stdlib.h:
+
+/home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x3.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
@@ -349,6 +361,8 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
+/home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x3.c:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
@@ -375,6 +389,10 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 
 /home/pruden/CLionProjects/Ctris/metodos/piezas/pintar/pintar.c:
 
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 /home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.h:
@@ -390,9 +408,3 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 /usr/include/stdc-predef.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:

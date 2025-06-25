@@ -15,6 +15,8 @@ add_executable(Ctris
         metodos/piezas/pintar/pintar.h
         metodos/piezas/limpiar/limpiar.c
         metodos/piezas/limpiar/limpiar.h
+        metodos/mover/bajar/bajar_3x2.c
+        metodos/mover/bajar/bajar_3x2.h
 )
 
 include_directories(
