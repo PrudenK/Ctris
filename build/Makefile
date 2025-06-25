@@ -201,6 +201,30 @@ metodos/mover/bajar/bajar_3x2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.s
 .PHONY : metodos/mover/bajar/bajar_3x2.c.s
 
+metodos/mover/lados/lados_3x2.o: metodos/mover/lados/lados_3x2.c.o
+.PHONY : metodos/mover/lados/lados_3x2.o
+
+# target to build an object file
+metodos/mover/lados/lados_3x2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/lados/lados_3x2.c.o
+.PHONY : metodos/mover/lados/lados_3x2.c.o
+
+metodos/mover/lados/lados_3x2.i: metodos/mover/lados/lados_3x2.c.i
+.PHONY : metodos/mover/lados/lados_3x2.i
+
+# target to preprocess a source file
+metodos/mover/lados/lados_3x2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/lados/lados_3x2.c.i
+.PHONY : metodos/mover/lados/lados_3x2.c.i
+
+metodos/mover/lados/lados_3x2.s: metodos/mover/lados/lados_3x2.c.s
+.PHONY : metodos/mover/lados/lados_3x2.s
+
+# target to generate assembly for a file
+metodos/mover/lados/lados_3x2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/lados/lados_3x2.c.s
+.PHONY : metodos/mover/lados/lados_3x2.c.s
+
 metodos/piezas/limpiar/limpiar.o: metodos/piezas/limpiar/limpiar.c.o
 .PHONY : metodos/piezas/limpiar/limpiar.o
 
@@ -363,6 +387,9 @@ help:
 	@echo "... metodos/mover/bajar/bajar_3x2.o"
 	@echo "... metodos/mover/bajar/bajar_3x2.i"
 	@echo "... metodos/mover/bajar/bajar_3x2.s"
+	@echo "... metodos/mover/lados/lados_3x2.o"
+	@echo "... metodos/mover/lados/lados_3x2.i"
+	@echo "... metodos/mover/lados/lados_3x2.s"
 	@echo "... metodos/piezas/limpiar/limpiar.o"
 	@echo "... metodos/piezas/limpiar/limpiar.i"
 	@echo "... metodos/piezas/limpiar/limpiar.s"

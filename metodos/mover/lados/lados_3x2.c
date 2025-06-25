@@ -12,7 +12,7 @@
 // fc -> fila centro
 // cc -> columna centro
 
-void mover_derecha_3x2(Pieza *pieza,  const int *d, int sentido) { // -1 izq
+void lados_3x2(Pieza *pieza,  const int *d, int sentido) { // -1 izq
     bool puede_moverse = false;
 
     int orientacion = pieza->orientacion;

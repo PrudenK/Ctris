@@ -9,6 +9,7 @@
 #include "../metodos/piezas/pintar/pintar.h"
 #include "../metodos/piezas/limpiar/limpiar.h"
 #include "mover/bajar/bajar_3x2.h"
+#include "mover/lados/lados_3x2.h"
 
 
 #define NUM_PIEZA_T 3
@@ -65,11 +66,13 @@ static bool bajar_T(Pieza *pieza) {
 }
 
 static void derecha_T(Pieza *pieza) {
-    Pieza_T *self = (Pieza_T *)pieza;
+    int d[] = {2, 1, 2, 1, 1, 2, 1, 1, 1, 1};
+    lados_3x2(pieza, d, 1);
 }
 
 static void izquierda_T(Pieza *pieza) {
-    Pieza_T *self = (Pieza_T *)pieza;
+    int d[] = {-2, -1, -2, -1, -1, -1, -1, -1, -2, -1};
+    lados_3x2(pieza, d, -1);
 }
 
 void free_T(Pieza *pieza) {
