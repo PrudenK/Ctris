@@ -20,6 +20,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/pruden/CLionProjects/Ctris/piezas/Pieza.c" "CMakeFiles/Ctris.dir/piezas/Pieza.c.o" "gcc" "CMakeFiles/Ctris.dir/piezas/Pieza.c.o.d"
   "/home/pruden/CLionProjects/Ctris/piezas/Pieza_J.c" "CMakeFiles/Ctris.dir/piezas/Pieza_J.c.o" "gcc" "CMakeFiles/Ctris.dir/piezas/Pieza_J.c.o.d"
   "/home/pruden/CLionProjects/Ctris/piezas/Pieza_L.c" "CMakeFiles/Ctris.dir/piezas/Pieza_L.c.o" "gcc" "CMakeFiles/Ctris.dir/piezas/Pieza_L.c.o.d"
+  "/home/pruden/CLionProjects/Ctris/piezas/Pieza_S.c" "CMakeFiles/Ctris.dir/piezas/Pieza_S.c.o" "gcc" "CMakeFiles/Ctris.dir/piezas/Pieza_S.c.o.d"
   "/home/pruden/CLionProjects/Ctris/piezas/Pieza_T.c" "CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o" "gcc" "CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o.d"
   "/home/pruden/CLionProjects/Ctris/tablero/crear_tablero.c" "CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o" "gcc" "CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o.d"
   )

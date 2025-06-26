@@ -23,6 +23,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Ctris.dir/piezas/Pieza_J.c.o.d"
   "CMakeFiles/Ctris.dir/piezas/Pieza_L.c.o"
   "CMakeFiles/Ctris.dir/piezas/Pieza_L.c.o.d"
+  "CMakeFiles/Ctris.dir/piezas/Pieza_S.c.o"
+  "CMakeFiles/Ctris.dir/piezas/Pieza_S.c.o.d"
   "CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o"
   "CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o.d"
   "CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o"
