@@ -44,6 +44,7 @@ CMakeFiles/Ctris.dir/metodos/bolsa_piezas/bolsa_piezas.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /home/pruden/CLionProjects/Ctris/utils/constantes.h \
+ /home/pruden/CLionProjects/Ctris/utils/../piezas/Pieza.h \
  /home/pruden/CLionProjects/Ctris/piezas/Pieza_I.h \
  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
  /home/pruden/CLionProjects/Ctris/piezas/Pieza_J.h \

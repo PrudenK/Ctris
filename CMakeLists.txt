@@ -49,6 +49,8 @@ add_executable(Ctris
         metodos/completar_linea/completar_linea.h
         metodos/perder/comprobar_perder.c
         metodos/perder/comprobar_perder.h
+        metodos/hold/holdear.c
+        metodos/hold/holdear.h
 )
 
 include_directories(

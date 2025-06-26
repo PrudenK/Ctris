@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Ctris.dir/metodos/bolsa_piezas/bolsa_piezas.c.o.d"
   "CMakeFiles/Ctris.dir/metodos/completar_linea/completar_linea.c.o"
   "CMakeFiles/Ctris.dir/metodos/completar_linea/completar_linea.c.o.d"
+  "CMakeFiles/Ctris.dir/metodos/hold/holdear.c.o"
+  "CMakeFiles/Ctris.dir/metodos/hold/holdear.c.o.d"
   "CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_2x2.c.o"
   "CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_2x2.c.o.d"
   "CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o"

@@ -78,4 +78,6 @@ CMakeFiles/Ctris.dir/metodos/teclado/teclado.c.o: \
  /home/pruden/CLionProjects/Ctris/tablero/crear_tablero.h \
  /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
  /home/pruden/CLionProjects/Ctris/tablero/../utils/constantes.h \
- /home/pruden/CLionProjects/Ctris/metodos/completar_linea/completar_linea.h
+ /home/pruden/CLionProjects/Ctris/tablero/../utils/../piezas/Pieza.h \
+ /home/pruden/CLionProjects/Ctris/metodos/completar_linea/completar_linea.h \
+ /home/pruden/CLionProjects/Ctris/metodos/hold/holdear.h

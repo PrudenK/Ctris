@@ -66,4 +66,5 @@ CMakeFiles/Ctris.dir/main.c.o: /home/pruden/CLionProjects/Ctris/main.c \
  /home/pruden/CLionProjects/Ctris/tablero/crear_tablero.h \
  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
  /home/pruden/CLionProjects/Ctris/metodos/teclado/teclado.h \
- /home/pruden/CLionProjects/Ctris/utils/constantes.h
+ /home/pruden/CLionProjects/Ctris/utils/constantes.h \
+ /home/pruden/CLionProjects/Ctris/utils/../piezas/Pieza.h

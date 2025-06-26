@@ -18,7 +18,10 @@ int lineas = 0;
 int puntuacion = 0;
 int TIEMPO_CAIDA = 2000;
 bool has_perdido = false;
+bool puedes_holdear = true;
 Pieza *pieza = NULL;
+Pieza *pieza_hold = NULL;
+
 
 void nueva_pieza() {
     if (pieza != NULL) {
@@ -77,6 +80,7 @@ void main() {
                     cargar_tablero_principal();
                     nueva_pieza();
                     has_perdido = false;
+                    puedes_holdear = true;
                     ultimo_tick = get_time_millis();
                     imprimir_tablero();
                     break;  // salimos del bucle y el juego continúa

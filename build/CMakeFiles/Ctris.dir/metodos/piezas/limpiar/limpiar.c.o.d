@@ -28,4 +28,5 @@ CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o: \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
- /home/pruden/CLionProjects/Ctris/tablero/../utils/constantes.h
+ /home/pruden/CLionProjects/Ctris/tablero/../utils/constantes.h \
+ /home/pruden/CLionProjects/Ctris/tablero/../utils/../piezas/Pieza.h

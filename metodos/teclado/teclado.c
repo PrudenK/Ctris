@@ -14,6 +14,7 @@
 #include "Pieza.h"
 #include "tablero.h"
 #include "completar_linea/completar_linea.h"
+#include "hold/holdear.h"
 
 void configurar_terminal_sin_buffer() {
     struct termios t;
@@ -64,6 +65,7 @@ void manejar_input(Pieza *pieza) {
                         puntuacion += 2;
                         imprimir_tablero();
                     } else {
+                        puedes_holdear = true;
                         nueva_pieza();
                     }
                     break;
@@ -79,8 +81,13 @@ void manejar_input(Pieza *pieza) {
                     while (pieza->v_metodos->bajar(pieza)) {
                         puntuacion += 4;
                     }
+                    puedes_holdear = true;
                     imprimir_tablero();
                     nueva_pieza();
+                    break;
+
+                case 'h':
+                    holdear();
                     break;
                 case 'q':
                     printf("Saliendo...\n");

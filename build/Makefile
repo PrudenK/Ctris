@@ -201,6 +201,30 @@ metodos/completar_linea/completar_linea.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/completar_linea/completar_linea.c.s
 .PHONY : metodos/completar_linea/completar_linea.c.s
 
+metodos/hold/holdear.o: metodos/hold/holdear.c.o
+.PHONY : metodos/hold/holdear.o
+
+# target to build an object file
+metodos/hold/holdear.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/hold/holdear.c.o
+.PHONY : metodos/hold/holdear.c.o
+
+metodos/hold/holdear.i: metodos/hold/holdear.c.i
+.PHONY : metodos/hold/holdear.i
+
+# target to preprocess a source file
+metodos/hold/holdear.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/hold/holdear.c.i
+.PHONY : metodos/hold/holdear.c.i
+
+metodos/hold/holdear.s: metodos/hold/holdear.c.s
+.PHONY : metodos/hold/holdear.s
+
+# target to generate assembly for a file
+metodos/hold/holdear.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/hold/holdear.c.s
+.PHONY : metodos/hold/holdear.c.s
+
 metodos/mover/bajar/bajar_2x2.o: metodos/mover/bajar/bajar_2x2.c.o
 .PHONY : metodos/mover/bajar/bajar_2x2.o
 
@@ -699,6 +723,9 @@ help:
 	@echo "... metodos/completar_linea/completar_linea.o"
 	@echo "... metodos/completar_linea/completar_linea.i"
 	@echo "... metodos/completar_linea/completar_linea.s"
+	@echo "... metodos/hold/holdear.o"
+	@echo "... metodos/hold/holdear.i"
+	@echo "... metodos/hold/holdear.s"
 	@echo "... metodos/mover/bajar/bajar_2x2.o"
 	@echo "... metodos/mover/bajar/bajar_2x2.i"
 	@echo "... metodos/mover/bajar/bajar_2x2.s"

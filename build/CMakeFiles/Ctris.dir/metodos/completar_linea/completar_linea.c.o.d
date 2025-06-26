@@ -43,5 +43,6 @@ CMakeFiles/Ctris.dir/metodos/completar_linea/completar_linea.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /home/pruden/CLionProjects/Ctris/utils/constantes.h \
+ /home/pruden/CLionProjects/Ctris/utils/../piezas/Pieza.h \
  /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
  /home/pruden/CLionProjects/Ctris/tablero/../utils/constantes.h

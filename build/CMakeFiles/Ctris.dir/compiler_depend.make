@@ -7,6 +7,7 @@ CMakeFiles/Ctris.dir/main.c.o: /home/pruden/CLionProjects/Ctris/main.c \
   /home/pruden/CLionProjects/Ctris/metodos/teclado/teclado.h \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/tablero/crear_tablero.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /usr/include/alloca.h \
   /usr/include/endian.h \
@@ -87,6 +88,7 @@ CMakeFiles/Ctris.dir/metodos/bolsa_piezas/bolsa_piezas.c.o: /home/pruden/CLionPr
   /home/pruden/CLionProjects/Ctris/piezas/Pieza_S.h \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza_T.h \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza_Z.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /usr/include/alloca.h \
   /usr/include/endian.h \
@@ -138,6 +140,7 @@ CMakeFiles/Ctris.dir/metodos/completar_linea/completar_linea.c.o: /home/pruden/C
   /home/pruden/CLionProjects/Ctris/metodos/completar_linea/completar_linea.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /usr/include/alloca.h \
   /usr/include/endian.h \
@@ -185,10 +188,22 @@ CMakeFiles/Ctris.dir/metodos/completar_linea/completar_linea.c.o: /home/pruden/C
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
+CMakeFiles/Ctris.dir/metodos/hold/holdear.c.o: /home/pruden/CLionProjects/Ctris/metodos/hold/holdear.c \
+  /home/pruden/CLionProjects/Ctris/metodos/hold/holdear.h \
+  /home/pruden/CLionProjects/Ctris/metodos/teclado/teclado.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
+  /home/pruden/CLionProjects/Ctris/tablero/crear_tablero.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
+  /home/pruden/CLionProjects/Ctris/utils/constantes.h \
+  /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+
 CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_2x2.c.o: /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_2x2.c \
   /home/pruden/CLionProjects/Ctris/metodos/completar_linea/completar_linea.h \
   /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_2x2.h \
   /home/pruden/CLionProjects/Ctris/metodos/perder/comprobar_perder.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
@@ -199,6 +214,7 @@ CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o: /home/pruden/CLionProjec
   /home/pruden/CLionProjects/Ctris/metodos/completar_linea/completar_linea.h \
   /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x2.h \
   /home/pruden/CLionProjects/Ctris/metodos/perder/comprobar_perder.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
@@ -235,6 +251,7 @@ CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_4x1.c.o: /home/pruden/CLionProjec
   /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_4x1.h \
   /home/pruden/CLionProjects/Ctris/metodos/perder/comprobar_perder.h \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
   /usr/include/stdc-predef.h \
@@ -242,6 +259,7 @@ CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_4x1.c.o: /home/pruden/CLionProjec
 
 CMakeFiles/Ctris.dir/metodos/mover/lados/lados_3x2.c.o: /home/pruden/CLionProjects/Ctris/metodos/mover/lados/lados_3x2.c \
   /home/pruden/CLionProjects/Ctris/metodos/mover/lados/lados_3x2.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
@@ -251,6 +269,7 @@ CMakeFiles/Ctris.dir/metodos/mover/lados/lados_3x2.c.o: /home/pruden/CLionProjec
 CMakeFiles/Ctris.dir/metodos/mover/lados/lados_4x1.c.o: /home/pruden/CLionProjects/Ctris/metodos/mover/lados/lados_4x1.c \
   /home/pruden/CLionProjects/Ctris/metodos/mover/lados/lados_4x1.h \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
   /usr/include/stdc-predef.h \
@@ -258,6 +277,7 @@ CMakeFiles/Ctris.dir/metodos/mover/lados/lados_4x1.c.o: /home/pruden/CLionProjec
 
 CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.o: /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_especial.c \
   /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_especial.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
@@ -275,12 +295,14 @@ CMakeFiles/Ctris.dir/metodos/perder/comprobar_perder.c.o: /home/pruden/CLionProj
   /home/pruden/CLionProjects/Ctris/metodos/perder/comprobar_perder.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /usr/include/stdc-predef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h
 
 CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o: /home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.c \
   /home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
@@ -317,13 +339,16 @@ CMakeFiles/Ctris.dir/metodos/piezas/pintar/pintar.c.o: /home/pruden/CLionProject
   /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /usr/include/stdc-predef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h
 
 CMakeFiles/Ctris.dir/metodos/teclado/teclado.c.o: /home/pruden/CLionProjects/Ctris/metodos/teclado/teclado.c \
   /home/pruden/CLionProjects/Ctris/metodos/completar_linea/completar_linea.h \
+  /home/pruden/CLionProjects/Ctris/metodos/hold/holdear.h \
   /home/pruden/CLionProjects/Ctris/metodos/teclado/teclado.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /home/pruden/CLionProjects/Ctris/tablero/crear_tablero.h \
@@ -476,6 +501,7 @@ CMakeFiles/Ctris.dir/piezas/Pieza_I.c.o: /home/pruden/CLionProjects/Ctris/piezas
   /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_normal.h \
   /home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.h \
   /home/pruden/CLionProjects/Ctris/metodos/piezas/pintar/pintar.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
@@ -547,6 +573,7 @@ CMakeFiles/Ctris.dir/piezas/Pieza_J.c.o: /home/pruden/CLionProjects/Ctris/piezas
   /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_normal.h \
   /home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.h \
   /home/pruden/CLionProjects/Ctris/metodos/piezas/pintar/pintar.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
@@ -608,6 +635,7 @@ CMakeFiles/Ctris.dir/piezas/Pieza_L.c.o: /home/pruden/CLionProjects/Ctris/piezas
   /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_normal.h \
   /home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.h \
   /home/pruden/CLionProjects/Ctris/metodos/piezas/pintar/pintar.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
@@ -680,6 +708,7 @@ CMakeFiles/Ctris.dir/piezas/Pieza_O.c.o: /home/pruden/CLionProjects/Ctris/piezas
   /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_normal.h \
   /home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.h \
   /home/pruden/CLionProjects/Ctris/metodos/piezas/pintar/pintar.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
@@ -751,6 +780,7 @@ CMakeFiles/Ctris.dir/piezas/Pieza_S.c.o: /home/pruden/CLionProjects/Ctris/piezas
   /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_normal.h \
   /home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.h \
   /home/pruden/CLionProjects/Ctris/metodos/piezas/pintar/pintar.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
@@ -822,6 +852,7 @@ CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o: /home/pruden/CLionProjects/Ctris/piezas
   /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_normal.h \
   /home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.h \
   /home/pruden/CLionProjects/Ctris/metodos/piezas/pintar/pintar.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
@@ -893,6 +924,7 @@ CMakeFiles/Ctris.dir/piezas/Pieza_Z.c.o: /home/pruden/CLionProjects/Ctris/piezas
   /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_normal.h \
   /home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.h \
   /home/pruden/CLionProjects/Ctris/metodos/piezas/pintar/pintar.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
@@ -950,6 +982,7 @@ CMakeFiles/Ctris.dir/piezas/Pieza_Z.c.o: /home/pruden/CLionProjects/Ctris/piezas
 CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris/tablero/crear_tablero.c \
   /home/pruden/CLionProjects/Ctris/metodos/bolsa_piezas/bolsa_piezas.h \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
   /usr/include/features-time64.h \
@@ -994,6 +1027,8 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 /home/pruden/CLionProjects/Ctris/piezas/Pieza_S.c:
 
 /home/pruden/CLionProjects/Ctris/piezas/Pieza_O.c:
+
+/usr/include/string.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
@@ -1051,6 +1086,10 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 
 /usr/include/x86_64-linux-gnu/bits/termios.h:
 
+/home/pruden/CLionProjects/Ctris/piezas/Pieza_I.c:
+
+/home/pruden/CLionProjects/Ctris/utils/constantes.h:
+
 /home/pruden/CLionProjects/Ctris/piezas/Pieza_O.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
@@ -1077,8 +1116,6 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
-/usr/include/string.h:
-
 /home/pruden/CLionProjects/Ctris/main.c:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
@@ -1104,6 +1141,8 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/home/pruden/CLionProjects/Ctris/metodos/hold/holdear.c:
 
 /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_normal.h:
 
@@ -1172,6 +1211,8 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 /home/pruden/CLionProjects/Ctris/piezas/Pieza_L.c:
 
 /home/pruden/CLionProjects/Ctris/metodos/perder/comprobar_perder.h:
+
+/home/pruden/CLionProjects/Ctris/metodos/hold/holdear.h:
 
 /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
 
@@ -1250,7 +1291,3 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /home/pruden/CLionProjects/Ctris/piezas/Pieza.c:
-
-/home/pruden/CLionProjects/Ctris/utils/constantes.h:
-
-/home/pruden/CLionProjects/Ctris/piezas/Pieza_I.c:

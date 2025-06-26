@@ -59,6 +59,7 @@ CMakeFiles/Ctris.dir/piezas/Pieza_O.c.o: \
  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
  /home/pruden/CLionProjects/Ctris/piezas/../tablero/tablero.h \
  /home/pruden/CLionProjects/Ctris/piezas/../tablero/../utils/constantes.h \
+ /home/pruden/CLionProjects/Ctris/piezas/../tablero/../utils/../piezas/Pieza.h \
  /home/pruden/CLionProjects/Ctris/piezas/../metodos/piezas/pintar/pintar.h \
  /home/pruden/CLionProjects/Ctris/piezas/../metodos/piezas/limpiar/limpiar.h \
  /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x2.h \
