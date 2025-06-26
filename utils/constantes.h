@@ -6,7 +6,7 @@
 #define CONSTANTES_H
 
 #define FILAS 15
-#define COLUMNAS 10
+#define COLUMNAS 12
 #define SUELO 9
 #define BLANCO 0
 

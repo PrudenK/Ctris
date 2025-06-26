@@ -10,14 +10,17 @@
 void cargar_tablero_principal() {
     for (int i = 0; i < FILAS; i++) {
         for (int j = 0; j < COLUMNAS; j++) {
-            if (i == FILAS -1) {
+            if (i == FILAS - 1) {
                 tablero[i][j] = SUELO;
-            }else {
+            } else if (j == 0 || j == COLUMNAS - 1) {
+                tablero[i][j] = 9; // Pared lateral
+            } else {
                 tablero[i][j] = 0;
             }
         }
     }
 }
+
 
 void imprimir_tablero() {
     for (int i = 0; i < FILAS; i++) {

@@ -12,7 +12,7 @@
 
 bool condicion_rotar_especial(
     Pieza *pieza,
-    const int *d_ filas,
+    const int *d_filas,
     const int *d_columnas,
     bool columna_b,
     int movimiento,
