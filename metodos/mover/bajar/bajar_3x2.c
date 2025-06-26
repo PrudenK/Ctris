@@ -9,6 +9,7 @@
 
 #include "Pieza.h"
 #include "tablero.h"
+#include "completar_linea/completar_linea.h"
 
 
 // d -> desplazamientos
@@ -53,7 +54,7 @@ bool bajar_3x2(Pieza *pieza, const int *d) {
         pieza->v_metodos->pintar(pieza);
         return true;
     }else {
-        // TODO borrar línea
+        borrar_linea();
     }
     return false;
 

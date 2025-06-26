@@ -6,6 +6,7 @@
 
 #include "Pieza.h"
 #include "tablero.h"
+#include "completar_linea/completar_linea.h"
 
 bool bajar_4x1(Pieza *pieza) {
     bool puede_bajar = true;
@@ -49,7 +50,7 @@ bool bajar_4x1(Pieza *pieza) {
         pieza->v_metodos->pintar(pieza);
         return true;
     }else {
-        // TODO borrar línea
+        borrar_linea();
     }
     return false;
 }

@@ -45,6 +45,8 @@ add_executable(Ctris
         metodos/mover/bajar/bajar_4x1.h
         metodos/mover/lados/lados_4x1.c
         metodos/mover/lados/lados_4x1.h
+        metodos/completar_linea/completar_linea.c
+        metodos/completar_linea/completar_linea.h
 )
 
 include_directories(

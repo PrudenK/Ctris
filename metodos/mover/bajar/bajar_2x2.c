@@ -8,6 +8,7 @@
 
 #include "Pieza.h"
 #include "tablero.h"
+#include "completar_linea/completar_linea.h"
 
 // d -> desplazamientos
 // fc -> fila centro
@@ -49,7 +50,7 @@ bool bajar_2x2(Pieza *pieza, const int *d) {
         pieza->v_metodos->pintar(pieza);
         return true;
     }else {
-        // TODO borrar línea
+        borrar_linea();
     }
     return false;
 

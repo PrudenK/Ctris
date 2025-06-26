@@ -177,6 +177,30 @@ metodos/bolsa_piezas/bolsa_piezas.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/bolsa_piezas/bolsa_piezas.c.s
 .PHONY : metodos/bolsa_piezas/bolsa_piezas.c.s
 
+metodos/completar_linea/completar_linea.o: metodos/completar_linea/completar_linea.c.o
+.PHONY : metodos/completar_linea/completar_linea.o
+
+# target to build an object file
+metodos/completar_linea/completar_linea.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/completar_linea/completar_linea.c.o
+.PHONY : metodos/completar_linea/completar_linea.c.o
+
+metodos/completar_linea/completar_linea.i: metodos/completar_linea/completar_linea.c.i
+.PHONY : metodos/completar_linea/completar_linea.i
+
+# target to preprocess a source file
+metodos/completar_linea/completar_linea.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/completar_linea/completar_linea.c.i
+.PHONY : metodos/completar_linea/completar_linea.c.i
+
+metodos/completar_linea/completar_linea.s: metodos/completar_linea/completar_linea.c.s
+.PHONY : metodos/completar_linea/completar_linea.s
+
+# target to generate assembly for a file
+metodos/completar_linea/completar_linea.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/completar_linea/completar_linea.c.s
+.PHONY : metodos/completar_linea/completar_linea.c.s
+
 metodos/mover/bajar/bajar_2x2.o: metodos/mover/bajar/bajar_2x2.c.o
 .PHONY : metodos/mover/bajar/bajar_2x2.o
 
@@ -648,6 +672,9 @@ help:
 	@echo "... metodos/bolsa_piezas/bolsa_piezas.o"
 	@echo "... metodos/bolsa_piezas/bolsa_piezas.i"
 	@echo "... metodos/bolsa_piezas/bolsa_piezas.s"
+	@echo "... metodos/completar_linea/completar_linea.o"
+	@echo "... metodos/completar_linea/completar_linea.i"
+	@echo "... metodos/completar_linea/completar_linea.s"
 	@echo "... metodos/mover/bajar/bajar_2x2.o"
 	@echo "... metodos/mover/bajar/bajar_2x2.i"
 	@echo "... metodos/mover/bajar/bajar_2x2.s"

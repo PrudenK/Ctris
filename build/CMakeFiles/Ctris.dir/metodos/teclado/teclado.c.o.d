@@ -75,4 +75,5 @@ CMakeFiles/Ctris.dir/metodos/teclado/teclado.c.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \
- /home/pruden/CLionProjects/Ctris/tablero/crear_tablero.h
+ /home/pruden/CLionProjects/Ctris/tablero/crear_tablero.h \
+ /home/pruden/CLionProjects/Ctris/metodos/completar_linea/completar_linea.h

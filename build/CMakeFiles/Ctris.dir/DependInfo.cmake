@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/pruden/CLionProjects/Ctris/main.c" "CMakeFiles/Ctris.dir/main.c.o" "gcc" "CMakeFiles/Ctris.dir/main.c.o.d"
   "/home/pruden/CLionProjects/Ctris/metodos/bolsa_piezas/bolsa_piezas.c" "CMakeFiles/Ctris.dir/metodos/bolsa_piezas/bolsa_piezas.c.o" "gcc" "CMakeFiles/Ctris.dir/metodos/bolsa_piezas/bolsa_piezas.c.o.d"
+  "/home/pruden/CLionProjects/Ctris/metodos/completar_linea/completar_linea.c" "CMakeFiles/Ctris.dir/metodos/completar_linea/completar_linea.c.o" "gcc" "CMakeFiles/Ctris.dir/metodos/completar_linea/completar_linea.c.o.d"
   "/home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_2x2.c" "CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_2x2.c.o" "gcc" "CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_2x2.c.o.d"
   "/home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x2.c" "CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o" "gcc" "CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o.d"
   "/home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_4x1.c" "CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_4x1.c.o" "gcc" "CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_4x1.c.o.d"

@@ -28,4 +28,5 @@ CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o: \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
- /home/pruden/CLionProjects/Ctris/tablero/../utils/constantes.h
+ /home/pruden/CLionProjects/Ctris/tablero/../utils/constantes.h \
+ /home/pruden/CLionProjects/Ctris/metodos/completar_linea/completar_linea.h

@@ -12,6 +12,7 @@
 
 #include "crear_tablero.h"
 #include "Pieza.h"
+#include "completar_linea/completar_linea.h"
 
 void configurar_terminal_sin_buffer() {
     struct termios t;
@@ -72,7 +73,7 @@ void manejar_input(Pieza *pieza) {
                 imprimir_tablero();
                 break;
             case ' ':
-                while (pieza->v_metodos->bajar(pieza)){};
+                while (pieza->v_metodos->bajar(pieza)){}
                 imprimir_tablero();
                 nueva_pieza();
                 break;
