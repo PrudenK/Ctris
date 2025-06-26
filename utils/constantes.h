@@ -9,5 +9,8 @@
 #define COLUMNAS 12
 #define SUELO 9
 #define BLANCO 0
+#define LINEAS_X_NIVEL 10
+#define SALTO_TEIMPO_X_NIVEL 200
+extern int TIEMPO_CAIDA;
 
 #endif //CONSTANTES_H

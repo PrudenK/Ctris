@@ -8,12 +8,12 @@
 #include "teclado/teclado.h"
 #include "utils/constantes.h"
 
-#define INTERVALO 2000 // en ms
 
 int tablero[FILAS][COLUMNAS] = {0};
 int nivel = 1;
 int lineas = 0;
 int puntuacion = 0;
+int TIEMPO_CAIDA = 2000;
 Pieza *pieza = NULL;
 
 void nueva_pieza() {
@@ -38,7 +38,7 @@ void main() {
     while (1) {
         long ahora = get_time_millis();
 
-        if (ahora - ultimo_tick >= INTERVALO) {
+        if (ahora - ultimo_tick >= TIEMPO_CAIDA) {
             if (pieza->v_metodos->bajar(pieza)) {
                 imprimir_tablero();
             }else {

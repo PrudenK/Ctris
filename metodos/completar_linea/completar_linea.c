@@ -17,7 +17,7 @@ typedef struct {
 } LineasABorrar;
 
 static LineasABorrar filas_que_hay_que_borrar();
-static void actualizar_puntuacion_al_completar_linea(int num_lineas);
+static void actualizar_al_completar_linea(int num_lineas);
 int lineas_borradas = 0;
 
 void borrar_linea() {
@@ -26,7 +26,7 @@ void borrar_linea() {
 
     if (lineas_borradas > 0) {
         lineas += (int)lineas_que_borrar.size;
-        actualizar_puntuacion_al_completar_linea(lineas_que_borrar.size);
+        actualizar_al_completar_linea(lineas_que_borrar.size);
 
         for (size_t i = 0; i < lineas_que_borrar.size; i++) {
             int fila = lineas_que_borrar.filas[i];
@@ -74,12 +74,20 @@ static LineasABorrar filas_que_hay_que_borrar() {
     return resultado;
 }
 
-static void actualizar_puntuacion_al_completar_linea(int num_lineas) {
+static void actualizar_al_completar_linea(int num_lineas) {
     switch (num_lineas) {
         case 1: puntuacion+= 100; break;
         case 2: puntuacion+= 300; break;
         case 3: puntuacion+= 500; break;
         case 4: puntuacion+= 800; break;
         default:
+    }
+
+    int nuevo_nivel = lineas / LINEAS_X_NIVEL;
+
+    // De momento solo funciona para LINEAS_X_NIVEL >= máximo de lineas que puedes completar en un solo movmiento
+    if (nuevo_nivel + 1 > nivel) {
+        TIEMPO_CAIDA -= SALTO_TEIMPO_X_NIVEL;
+        nivel++;
     }
 }
