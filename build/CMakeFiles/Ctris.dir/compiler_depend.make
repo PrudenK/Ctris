@@ -296,7 +296,9 @@ CMakeFiles/Ctris.dir/metodos/teclado/teclado.c.o: /home/pruden/CLionProjects/Ctr
   /home/pruden/CLionProjects/Ctris/metodos/completar_linea/completar_linea.h \
   /home/pruden/CLionProjects/Ctris/metodos/teclado/teclado.h \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
+  /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /home/pruden/CLionProjects/Ctris/tablero/crear_tablero.h \
+  /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
   /usr/include/alloca.h \
   /usr/include/endian.h \
   /usr/include/fcntl.h \

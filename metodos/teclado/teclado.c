@@ -12,6 +12,7 @@
 
 #include "crear_tablero.h"
 #include "Pieza.h"
+#include "tablero.h"
 #include "completar_linea/completar_linea.h"
 
 void configurar_terminal_sin_buffer() {
@@ -59,6 +60,7 @@ void manejar_input(Pieza *pieza) {
                 break;
             case 'B':
                 if (pieza->v_metodos->bajar(pieza)) {
+                    puntuacion += 2;
                     imprimir_tablero();
                 } else {
                     nueva_pieza();
@@ -73,7 +75,9 @@ void manejar_input(Pieza *pieza) {
                 imprimir_tablero();
                 break;
             case ' ':
-                while (pieza->v_metodos->bajar(pieza)){}
+                while (pieza->v_metodos->bajar(pieza)) {
+                    puntuacion += 4;
+                }
                 imprimir_tablero();
                 nueva_pieza();
                 break;

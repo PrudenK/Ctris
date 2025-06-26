@@ -17,27 +17,31 @@ typedef struct {
 } LineasABorrar;
 
 static LineasABorrar filas_que_hay_que_borrar();
+static void actualizar_puntuacion_al_completar_linea(int num_lineas);
 int lineas_borradas = 0;
 
 void borrar_linea() {
     LineasABorrar lineas_que_borrar = filas_que_hay_que_borrar();
     lineas_borradas += lineas_que_borrar.size;
 
-    lineas += (int)lineas_que_borrar.size;
+    if (lineas_borradas > 0) {
+        lineas += (int)lineas_que_borrar.size;
+        actualizar_puntuacion_al_completar_linea(lineas_que_borrar.size);
 
-    for (size_t i = 0; i < lineas_que_borrar.size; i++) {
-        int fila = lineas_que_borrar.filas[i];
-        for (int j = fila; j > 0; j--) {
-            for (int col = 0; col < COLUMNAS; col++) {
-                tablero[j][col] = tablero[j - 1][col];
+        for (size_t i = 0; i < lineas_que_borrar.size; i++) {
+            int fila = lineas_que_borrar.filas[i];
+            for (int j = fila; j > 0; j--) {
+                for (int col = 0; col < COLUMNAS; col++) {
+                    tablero[j][col] = tablero[j - 1][col];
+                }
             }
-        }
 
-        for (int col = 0; col < COLUMNAS; col++) {
-            if (col == 0 || col == COLUMNAS - 1) {
-                tablero[0][col] = SUELO;
-            }else {
-                tablero[0][col] = BLANCO;
+            for (int col = 0; col < COLUMNAS; col++) {
+                if (col == 0 || col == COLUMNAS - 1) {
+                    tablero[0][col] = SUELO;
+                }else {
+                    tablero[0][col] = BLANCO;
+                }
             }
         }
     }
@@ -68,4 +72,14 @@ static LineasABorrar filas_que_hay_que_borrar() {
     }
 
     return resultado;
+}
+
+static void actualizar_puntuacion_al_completar_linea(int num_lineas) {
+    switch (num_lineas) {
+        case 1: puntuacion+= 100; break;
+        case 2: puntuacion+= 300; break;
+        case 3: puntuacion+= 500; break;
+        case 4: puntuacion+= 800; break;
+        default:
+    }
 }
