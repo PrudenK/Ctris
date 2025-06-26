@@ -51,9 +51,11 @@ void imprimir_celda(int valor) {
         case 3:
             printf("\033[45m  \033[0m");
             break;
+        case 4:
+            printf("\033[44m  \033[0m");
+            break;
         case 5:
             printf("\033[43m  \033[0m");
-            break;
             break;
         case 9:
             printf("\033[100m  \033[0m");

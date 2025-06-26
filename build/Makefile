@@ -393,6 +393,30 @@ piezas/Pieza_J.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/piezas/Pieza_J.c.s
 .PHONY : piezas/Pieza_J.c.s
 
+piezas/Pieza_L.o: piezas/Pieza_L.c.o
+.PHONY : piezas/Pieza_L.o
+
+# target to build an object file
+piezas/Pieza_L.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/piezas/Pieza_L.c.o
+.PHONY : piezas/Pieza_L.c.o
+
+piezas/Pieza_L.i: piezas/Pieza_L.c.i
+.PHONY : piezas/Pieza_L.i
+
+# target to preprocess a source file
+piezas/Pieza_L.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/piezas/Pieza_L.c.i
+.PHONY : piezas/Pieza_L.c.i
+
+piezas/Pieza_L.s: piezas/Pieza_L.c.s
+.PHONY : piezas/Pieza_L.s
+
+# target to generate assembly for a file
+piezas/Pieza_L.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/piezas/Pieza_L.c.s
+.PHONY : piezas/Pieza_L.c.s
+
 piezas/Pieza_T.o: piezas/Pieza_T.c.o
 .PHONY : piezas/Pieza_T.o
 
@@ -483,6 +507,9 @@ help:
 	@echo "... piezas/Pieza_J.o"
 	@echo "... piezas/Pieza_J.i"
 	@echo "... piezas/Pieza_J.s"
+	@echo "... piezas/Pieza_L.o"
+	@echo "... piezas/Pieza_L.i"
+	@echo "... piezas/Pieza_L.s"
 	@echo "... piezas/Pieza_T.o"
 	@echo "... piezas/Pieza_T.i"
 	@echo "... piezas/Pieza_T.s"

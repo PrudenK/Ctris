@@ -9,9 +9,10 @@
 #include "constantes.h"
 #include "Pieza.h"
 #include "Pieza_J.h"
+#include "Pieza_L.h"
 #include "Pieza_T.h"
 
-#define NUM_TIPOS_PIEZA 2
+#define NUM_TIPOS_PIEZA 3
 Pieza *bolsa[NUM_TIPOS_PIEZA];
 int bolsa_size = 0;
 
@@ -34,7 +35,7 @@ void cargar_bolsa() {
     bolsa[0] = (Pieza *)crear_pieza_T(-1, columnaInicial);
     //bolsa[3] = (Pieza *)crear_pieza_S(0, columnaInicial);
     //bolsa[4] = (Pieza *)crear_pieza_Z(0, columnaInicial);
-    //bolsa[5] = (Pieza *)crear_pieza_L(0, columnaInicial);
+    bolsa[2] = (Pieza *)crear_pieza_L(-1, columnaInicial);
     bolsa[1] = (Pieza *)crear_pieza_J(-1, columnaInicial);
 
     bolsa_size = NUM_TIPOS_PIEZA;
