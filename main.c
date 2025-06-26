@@ -1,4 +1,6 @@
 #include <stddef.h>
+#include <stdlib.h>
+#include <time.h>
 
 #include "bolsa_piezas.h"
 #include "tablero/crear_tablero.h"
@@ -24,6 +26,8 @@ void nueva_pieza() {
 }
 
 void main() {
+    srand(time(NULL));
+
     configurar_terminal_sin_buffer();
     cargar_tablero_principal();
 

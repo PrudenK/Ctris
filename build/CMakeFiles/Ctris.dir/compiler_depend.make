@@ -7,7 +7,55 @@ CMakeFiles/Ctris.dir/main.c.o: /home/pruden/CLionProjects/Ctris/main.c \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/tablero/crear_tablero.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
+  /usr/include/alloca.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
   /usr/include/stdc-predef.h \
+  /usr/include/stdlib.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
@@ -903,6 +951,14 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 
 /home/pruden/CLionProjects/Ctris/piezas/Pieza_Z.c:
 
+/home/pruden/CLionProjects/Ctris/piezas/Pieza_T.c:
+
+/home/pruden/CLionProjects/Ctris/piezas/Pieza_S.c:
+
+/home/pruden/CLionProjects/Ctris/piezas/Pieza_O.c:
+
+/home/pruden/CLionProjects/Ctris/metodos/mover/lados/lados_3x2.c:
+
 /usr/include/x86_64-linux-gnu/bits/environments.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
@@ -917,17 +973,21 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
 
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/home/pruden/CLionProjects/Ctris/piezas/Pieza.h:
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
 
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/stat.h:
+/usr/include/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
@@ -935,21 +995,15 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+/usr/include/x86_64-linux-gnu/bits/time.h:
 
-/home/pruden/CLionProjects/Ctris/metodos/mover/lados/lados_3x2.c:
+/home/pruden/CLionProjects/Ctris/piezas/Pieza.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+/usr/include/x86_64-linux-gnu/bits/stat.h:
 
-/usr/include/x86_64-linux-gnu/bits/termios.h:
-
-/home/pruden/CLionProjects/Ctris/piezas/Pieza_O.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
+/usr/include/time.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
@@ -969,15 +1023,7 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
-/home/pruden/CLionProjects/Ctris/piezas/Pieza_Z.h:
-
-/home/pruden/CLionProjects/Ctris/piezas/Pieza_I.h:
-
-/usr/include/x86_64-linux-gnu/bits/termios-misc.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/home/pruden/CLionProjects/Ctris/tablero/crear_tablero.h:
+/usr/include/features.h:
 
 /home/pruden/CLionProjects/Ctris/metodos/mover/lados/lados_3x2.h:
 
@@ -985,33 +1031,33 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 
 /home/pruden/CLionProjects/Ctris/metodos/teclado/teclado.c:
 
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-/home/pruden/CLionProjects/Ctris/piezas/Pieza_T.c:
-
-/usr/include/string.h:
-
-/home/pruden/CLionProjects/Ctris/main.c:
+/usr/include/alloca.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/endian.h:
 
-/home/pruden/CLionProjects/Ctris/piezas/Pieza_S.h:
+/usr/include/x86_64-linux-gnu/sys/types.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+/usr/include/termios.h:
 
-/home/pruden/CLionProjects/Ctris/piezas/Pieza_T.h:
+/home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_2x2.c:
 
-/usr/include/x86_64-linux-gnu/bits/fcntl.h:
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
-/home/pruden/CLionProjects/Ctris/metodos/bolsa_piezas/bolsa_piezas.c:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+/usr/include/x86_64-linux-gnu/bits/termios.h:
 
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
-/usr/include/alloca.h:
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/string.h:
+
+/home/pruden/CLionProjects/Ctris/main.c:
 
 /home/pruden/CLionProjects/Ctris/metodos/teclado/teclado.h:
 
@@ -1021,15 +1067,43 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
-/usr/include/features.h:
+/home/pruden/CLionProjects/Ctris/metodos/bolsa_piezas/bolsa_piezas.c:
 
-/home/pruden/CLionProjects/Ctris/piezas/Pieza_O.c:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
 
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
-/usr/include/stdlib.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/home/pruden/CLionProjects/Ctris/piezas/Pieza_O.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+
+/home/pruden/CLionProjects/Ctris/tablero/crear_tablero.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/home/pruden/CLionProjects/Ctris/piezas/Pieza_I.h:
+
+/usr/include/x86_64-linux-gnu/bits/termios-misc.h:
+
+/home/pruden/CLionProjects/Ctris/piezas/Pieza_Z.h:
+
+/home/pruden/CLionProjects/Ctris/piezas/Pieza_S.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/home/pruden/CLionProjects/Ctris/piezas/Pieza_T.h:
+
+/usr/include/x86_64-linux-gnu/bits/fcntl.h:
+
+/home/pruden/CLionProjects/Ctris/piezas/Pieza_L.c:
+
+/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
 
 /home/pruden/CLionProjects/Ctris/tablero/tablero.h:
 
@@ -1047,12 +1121,6 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 
 /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x2.h:
 
-/usr/include/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
@@ -1069,10 +1137,6 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 
 /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_4x1.h:
 
-/home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_2x2.c:
-
-/usr/include/termios.h:
-
 /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_especial.c:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
@@ -1081,9 +1145,9 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 
 /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_especial.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_normal.c:
 
@@ -1137,10 +1201,6 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 
 /usr/include/x86_64-linux-gnu/sys/ttydefaults.h:
 
-/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
-
-/home/pruden/CLionProjects/Ctris/piezas/Pieza_L.c:
-
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /home/pruden/CLionProjects/Ctris/piezas/Pieza.c:
@@ -1152,7 +1212,3 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/strings.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/home/pruden/CLionProjects/Ctris/piezas/Pieza_S.c:
