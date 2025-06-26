@@ -5,6 +5,7 @@
 #include <unistd.h>
 
 #include "bolsa_piezas.h"
+#include "perder/comprobar_perder.h"
 #include "tablero/crear_tablero.h"
 #include "piezas/Pieza.h"
 #include "teclado/teclado.h"
@@ -46,13 +47,14 @@ void main() {
                 if (pieza->v_metodos->bajar(pieza)) {
                     imprimir_tablero();
                 }else {
-                    nueva_pieza();
+                    if (!comprobar_perder()) {
+                        nueva_pieza();
+                    }
                 }
                 ultimo_tick = ahora;
             }
         }else {
-            printf("Has perdido. Pulsa 'r' para reiniciar o 'q' para salir.\n");
-
+            printf("\nHas perdido. Pulsa 'r' para reiniciar o 'q' para salir.\n");
             while (1) {
                 char c = getchar();
                 if (c == 'q') {

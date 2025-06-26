@@ -3,10 +3,7 @@
 //
 
 #include "comprobar_perder.h"
-
 #include <stdbool.h>
-#include <stdlib.h>
-
 #include "constantes.h"
 #include "tablero.h"
 

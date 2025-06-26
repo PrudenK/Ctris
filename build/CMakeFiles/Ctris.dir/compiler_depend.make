@@ -3,6 +3,7 @@
 
 CMakeFiles/Ctris.dir/main.c.o: /home/pruden/CLionProjects/Ctris/main.c \
   /home/pruden/CLionProjects/Ctris/metodos/bolsa_piezas/bolsa_piezas.h \
+  /home/pruden/CLionProjects/Ctris/metodos/perder/comprobar_perder.h \
   /home/pruden/CLionProjects/Ctris/metodos/teclado/teclado.h \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/tablero/crear_tablero.h \
@@ -272,6 +273,7 @@ CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.o: /home/pruden/CLionPro
 
 CMakeFiles/Ctris.dir/metodos/perder/comprobar_perder.c.o: /home/pruden/CLionProjects/Ctris/metodos/perder/comprobar_perder.c \
   /home/pruden/CLionProjects/Ctris/metodos/perder/comprobar_perder.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
   /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
@@ -1081,6 +1083,14 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 
 /usr/include/features.h:
 
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/termios.h:
+
+/home/pruden/CLionProjects/Ctris/piezas/Pieza_O.h:
+
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /home/pruden/CLionProjects/Ctris/tablero/crear_tablero.h:
@@ -1095,21 +1105,9 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 
 /usr/include/alloca.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/x86_64-linux-gnu/bits/termios.h:
-
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/stdlib.h:
-
-/home/pruden/CLionProjects/Ctris/piezas/Pieza.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
@@ -1120,6 +1118,12 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 /usr/include/string.h:
 
 /home/pruden/CLionProjects/Ctris/main.c:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/home/pruden/CLionProjects/Ctris/piezas/Pieza.h:
+
+/usr/include/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
@@ -1138,8 +1142,6 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/x86_64-linux-gnu/bits/confname.h:
-
-/home/pruden/CLionProjects/Ctris/piezas/Pieza_O.h:
 
 /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_normal.h:
 
@@ -1255,9 +1257,9 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 
 /home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.c:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
 /usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /home/pruden/CLionProjects/Ctris/metodos/piezas/pintar/pintar.h:
 
