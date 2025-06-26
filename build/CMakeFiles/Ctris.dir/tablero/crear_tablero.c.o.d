@@ -23,7 +23,10 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/string.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/strings.h \
  /home/pruden/CLionProjects/Ctris/metodos/bolsa_piezas/bolsa_piezas.h \
  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \

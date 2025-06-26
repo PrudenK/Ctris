@@ -3,6 +3,7 @@
 //
 
 #include <stdio.h>
+#include <string.h>
 
 #include "bolsa_piezas.h"
 #include "tablero.h"
@@ -38,9 +39,31 @@ void imprimir_tablero() {
 
         printf("    ");
 
+        int limite_siguiente = 3;
+        if (strcmp(pieza_siguiente->nombre, "Pieza_I") == 0) {
+            limite_siguiente = 4;
+        }
+
         switch (i) {
             case 7:
                 printf("Siguiente pieza: %s", pieza_siguiente->nombre);
+                break;
+            case 9:
+                for (int j = 0; j <limite_siguiente; j++) {
+                    imprimir_celda(pieza_siguiente->formas[0][0][j]);
+                }
+                break;
+            case 10:
+                for (int j = 0; j <limite_siguiente; j++) {
+                    imprimir_celda(pieza_siguiente->formas[0][1][j]);
+                }
+                break;
+            case 11:
+                if (strcmp(pieza_siguiente->nombre, "Pieza_O") != 0) {
+                    for (int j = 0; j <limite_siguiente; j++) {
+                        imprimir_celda(pieza_siguiente->formas[0][2][j]);
+                    }
+                }
                 break;
             case FILAS -5:
                 printf("Nivel: %d", nivel);
@@ -67,24 +90,31 @@ void imprimir_celda(int valor) {
             printf("  ");
             break;
         case 1:
+        case 18:
             printf("\033[48;5;226m  \033[0m");
             break;
         case 2:
+        case 28:
             printf("\033[48;5;51m  \033[0m");
             break;
         case 3:
+        case 38:
             printf("\033[45m  \033[0m");
             break;
         case 4:
+        case 48:
             printf("\033[44m  \033[0m");
             break;
         case 5:
+        case 58:
             printf("\033[43m  \033[0m");
             break;
         case 6:
+        case 68:
             printf("\033[48;5;10m  \033[0m");
             break;
         case 7:
+        case 78:
             printf("\033[41m  \033[0m");
             break;
         case 9:
