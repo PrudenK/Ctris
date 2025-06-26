@@ -8,6 +8,8 @@
 #define NUM_TIPOS_PIEZA 7
 extern Pieza *bolsa[NUM_TIPOS_PIEZA];
 extern int bolsa_size;
-extern Pieza *pieza_siguiente;
+extern Pieza *pieza_siguiente_1;
+extern Pieza *pieza_siguiente_2;
+extern Pieza *pieza_siguiente_3;
 Pieza *devolver_pieza_aleatoria();
 #endif //BOLSA_PIEZAS_H

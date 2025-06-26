@@ -18,14 +18,16 @@
 
 Pieza *bolsa[NUM_TIPOS_PIEZA];
 int bolsa_size = 0;
-Pieza *pieza_siguiente = NULL;
+Pieza *pieza_siguiente_1 = NULL;
+Pieza *pieza_siguiente_2 = NULL;
+Pieza *pieza_siguiente_3 = NULL;
 
 
 void cargar_bolsa();
 
 
 Pieza *devolver_pieza_aleatoria() {
-    if (bolsa_size <= 1) {
+    if (bolsa_size <= 3) {
         cargar_bolsa();
     }
 

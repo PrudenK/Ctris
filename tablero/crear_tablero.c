@@ -27,6 +27,21 @@ void cargar_tablero_principal() {
     }
 }
 
+void imprimir_siguientes_fila(int fila) {
+    printf(" ");
+    Pieza *siguientes[] = { pieza_siguiente_1, pieza_siguiente_2, pieza_siguiente_3 };
+    for (int k = 0; k < 3; k++) {
+        int limite = strcmp(siguientes[k]->nombre, "Pieza_I") == 0 ? 4 : 3;
+        if (fila == 2 && strcmp(siguientes[k]->nombre, "Pieza_O") == 0) {
+            printf("      ");
+        } else {
+            for (int j = 0; j < limite; j++) {
+                imprimir_celda(siguientes[k]->formas[0][fila][j]);
+            }
+        }
+        printf("    ");
+    }
+}
 
 void imprimir_tablero() {
     printf("\033[H\033[J");  // Limpia pantalla
@@ -39,31 +54,18 @@ void imprimir_tablero() {
 
         printf("    ");
 
-        int limite_siguiente = 3;
-        if (strcmp(pieza_siguiente->nombre, "Pieza_I") == 0) {
-            limite_siguiente = 4;
-        }
-
         switch (i) {
             case 7:
-                printf("Siguiente pieza: %s", pieza_siguiente->nombre);
+                printf("     Siguientes piezas");
                 break;
             case 9:
-                for (int j = 0; j <limite_siguiente; j++) {
-                    imprimir_celda(pieza_siguiente->formas[0][0][j]);
-                }
+                imprimir_siguientes_fila(0);
                 break;
             case 10:
-                for (int j = 0; j <limite_siguiente; j++) {
-                    imprimir_celda(pieza_siguiente->formas[0][1][j]);
-                }
+                imprimir_siguientes_fila(1);
                 break;
             case 11:
-                if (strcmp(pieza_siguiente->nombre, "Pieza_O") != 0) {
-                    for (int j = 0; j <limite_siguiente; j++) {
-                        imprimir_celda(pieza_siguiente->formas[0][2][j]);
-                    }
-                }
+                imprimir_siguientes_fila(2);
                 break;
             case FILAS -5:
                 printf("Nivel: %d", nivel);

@@ -25,8 +25,11 @@ void nueva_pieza() {
         pieza->v_metodos->free(pieza);
     }
 
-    pieza = pieza_siguiente;
-    pieza_siguiente = devolver_pieza_aleatoria();
+    pieza = pieza_siguiente_1;
+    pieza_siguiente_1 = pieza_siguiente_2;
+    pieza_siguiente_2 = pieza_siguiente_3;
+    pieza_siguiente_3 = devolver_pieza_aleatoria();
+
     pieza->v_metodos->pintar(pieza);
     imprimir_tablero();
 }
@@ -37,7 +40,10 @@ void main() {
     configurar_terminal_sin_buffer();
     cargar_tablero_principal();
 
-    pieza_siguiente = devolver_pieza_aleatoria();
+    pieza_siguiente_1 = devolver_pieza_aleatoria();
+    pieza_siguiente_2 = devolver_pieza_aleatoria();
+    pieza_siguiente_3 = devolver_pieza_aleatoria();
+
     nueva_pieza();
 
     long ultimo_tick = get_time_millis();
