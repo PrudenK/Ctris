@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/pruden/CLionProjects/Ctris/metodos/mover/lados/lados_4x1.c" "CMakeFiles/Ctris.dir/metodos/mover/lados/lados_4x1.c.o" "gcc" "CMakeFiles/Ctris.dir/metodos/mover/lados/lados_4x1.c.o.d"
   "/home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_especial.c" "CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.o" "gcc" "CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.o.d"
   "/home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_normal.c" "CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.o" "gcc" "CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.o.d"
+  "/home/pruden/CLionProjects/Ctris/metodos/perder/comprobar_perder.c" "CMakeFiles/Ctris.dir/metodos/perder/comprobar_perder.c.o" "gcc" "CMakeFiles/Ctris.dir/metodos/perder/comprobar_perder.c.o.d"
   "/home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.c" "CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o" "gcc" "CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o.d"
   "/home/pruden/CLionProjects/Ctris/metodos/piezas/pintar/pintar.c" "CMakeFiles/Ctris.dir/metodos/piezas/pintar/pintar.c.o" "gcc" "CMakeFiles/Ctris.dir/metodos/piezas/pintar/pintar.c.o.d"
   "/home/pruden/CLionProjects/Ctris/metodos/teclado/teclado.c" "CMakeFiles/Ctris.dir/metodos/teclado/teclado.c.o" "gcc" "CMakeFiles/Ctris.dir/metodos/teclado/teclado.c.o.d"

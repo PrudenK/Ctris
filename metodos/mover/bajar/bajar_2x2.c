@@ -9,6 +9,7 @@
 #include "Pieza.h"
 #include "tablero.h"
 #include "completar_linea/completar_linea.h"
+#include "perder/comprobar_perder.h"
 
 // d -> desplazamientos
 // fc -> fila centro
@@ -51,6 +52,7 @@ bool bajar_2x2(Pieza *pieza, const int *d) {
         return true;
     }else {
         borrar_linea();
+        comprobar_perder();
     }
     return false;
 

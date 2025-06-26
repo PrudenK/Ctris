@@ -203,6 +203,13 @@ build CMakeFiles/Ctris.dir/metodos/completar_linea/completar_linea.c.o: C_COMPIL
   OBJECT_DIR = CMakeFiles/Ctris.dir
   OBJECT_FILE_DIR = CMakeFiles/Ctris.dir/metodos/completar_linea
 
+build CMakeFiles/Ctris.dir/metodos/perder/comprobar_perder.c.o: C_COMPILER__Ctris_unscanned_Debug /home/pruden/CLionProjects/Ctris/metodos/perder/comprobar_perder.c || cmake_object_order_depends_target_Ctris
+  DEP_FILE = CMakeFiles/Ctris.dir/metodos/perder/comprobar_perder.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/pruden/CLionProjects/Ctris/utils -I/home/pruden/CLionProjects/Ctris/tablero -I/home/pruden/CLionProjects/Ctris/piezas -I/home/pruden/CLionProjects/Ctris/metodos -I/home/pruden/CLionProjects/Ctris/metodos/piezas -I/home/pruden/CLionProjects/Ctris/metodos/piezas/pintar -I/home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar -I/home/pruden/CLionProjects/Ctris/metodos/mover/bajar -I/home/pruden/CLionProjects/Ctris/metodos/teclado -I/home/pruden/CLionProjects/Ctris/metodos/bolsa_piezas
+  OBJECT_DIR = CMakeFiles/Ctris.dir
+  OBJECT_FILE_DIR = CMakeFiles/Ctris.dir/metodos/perder
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Ctris
@@ -211,7 +218,7 @@ build CMakeFiles/Ctris.dir/metodos/completar_linea/completar_linea.c.o: C_COMPIL
 #############################################
 # Link the executable Ctris
 
-build Ctris: C_EXECUTABLE_LINKER__Ctris_Debug CMakeFiles/Ctris.dir/main.c.o CMakeFiles/Ctris.dir/piezas/Pieza.c.o CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o CMakeFiles/Ctris.dir/metodos/piezas/pintar/pintar.c.o CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o CMakeFiles/Ctris.dir/metodos/teclado/teclado.c.o CMakeFiles/Ctris.dir/metodos/bolsa_piezas/bolsa_piezas.c.o CMakeFiles/Ctris.dir/metodos/mover/lados/lados_3x2.c.o CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.o CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.o CMakeFiles/Ctris.dir/piezas/Pieza_J.c.o CMakeFiles/Ctris.dir/piezas/Pieza_L.c.o CMakeFiles/Ctris.dir/piezas/Pieza_S.c.o CMakeFiles/Ctris.dir/piezas/Pieza_Z.c.o CMakeFiles/Ctris.dir/piezas/Pieza_O.c.o CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_2x2.c.o CMakeFiles/Ctris.dir/piezas/Pieza_I.c.o CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_4x1.c.o CMakeFiles/Ctris.dir/metodos/mover/lados/lados_4x1.c.o CMakeFiles/Ctris.dir/metodos/completar_linea/completar_linea.c.o
+build Ctris: C_EXECUTABLE_LINKER__Ctris_Debug CMakeFiles/Ctris.dir/main.c.o CMakeFiles/Ctris.dir/piezas/Pieza.c.o CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o CMakeFiles/Ctris.dir/metodos/piezas/pintar/pintar.c.o CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o CMakeFiles/Ctris.dir/metodos/teclado/teclado.c.o CMakeFiles/Ctris.dir/metodos/bolsa_piezas/bolsa_piezas.c.o CMakeFiles/Ctris.dir/metodos/mover/lados/lados_3x2.c.o CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.o CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.o CMakeFiles/Ctris.dir/piezas/Pieza_J.c.o CMakeFiles/Ctris.dir/piezas/Pieza_L.c.o CMakeFiles/Ctris.dir/piezas/Pieza_S.c.o CMakeFiles/Ctris.dir/piezas/Pieza_Z.c.o CMakeFiles/Ctris.dir/piezas/Pieza_O.c.o CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_2x2.c.o CMakeFiles/Ctris.dir/piezas/Pieza_I.c.o CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_4x1.c.o CMakeFiles/Ctris.dir/metodos/mover/lados/lados_4x1.c.o CMakeFiles/Ctris.dir/metodos/completar_linea/completar_linea.c.o CMakeFiles/Ctris.dir/metodos/perder/comprobar_perder.c.o
   DEP_FILE = CMakeFiles/Ctris.dir/link.d
   FLAGS = -g
   LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/Ctris.dir/link.d

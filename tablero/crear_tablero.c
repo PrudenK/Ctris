@@ -38,13 +38,13 @@ void imprimir_tablero() {
         printf("    ");
 
         switch (i) {
-            case 10:
+            case FILAS -5:
                 printf("Nivel: %d", nivel);
                 break;
-            case 12:
+            case FILAS -3:
                 printf("Líneas: %d", lineas);
                 break;
-            case 14:
+            case FILAS -1:
                 printf("Puntuación: %d", puntuacion);
                 break;
             default:

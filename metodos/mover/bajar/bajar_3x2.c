@@ -10,6 +10,7 @@
 #include "Pieza.h"
 #include "tablero.h"
 #include "completar_linea/completar_linea.h"
+#include "perder/comprobar_perder.h"
 
 
 // d -> desplazamientos
@@ -55,6 +56,7 @@ bool bajar_3x2(Pieza *pieza, const int *d) {
         return true;
     }else {
         borrar_linea();
+        comprobar_perder();
     }
     return false;
 

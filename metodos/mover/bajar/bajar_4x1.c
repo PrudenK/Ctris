@@ -7,6 +7,7 @@
 #include "Pieza.h"
 #include "tablero.h"
 #include "completar_linea/completar_linea.h"
+#include "perder/comprobar_perder.h"
 
 bool bajar_4x1(Pieza *pieza) {
     bool puede_bajar = true;
@@ -51,6 +52,7 @@ bool bajar_4x1(Pieza *pieza) {
         return true;
     }else {
         borrar_linea();
+        comprobar_perder();
     }
     return false;
 }

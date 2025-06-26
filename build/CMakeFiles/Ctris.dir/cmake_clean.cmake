@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.o.d"
   "CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.o"
   "CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.o.d"
+  "CMakeFiles/Ctris.dir/metodos/perder/comprobar_perder.c.o"
+  "CMakeFiles/Ctris.dir/metodos/perder/comprobar_perder.c.o.d"
   "CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o"
   "CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o.d"
   "CMakeFiles/Ctris.dir/metodos/piezas/pintar/pintar.c.o"

@@ -369,6 +369,30 @@ metodos/mover/rotar/rotar_normal.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.s
 .PHONY : metodos/mover/rotar/rotar_normal.c.s
 
+metodos/perder/comprobar_perder.o: metodos/perder/comprobar_perder.c.o
+.PHONY : metodos/perder/comprobar_perder.o
+
+# target to build an object file
+metodos/perder/comprobar_perder.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/perder/comprobar_perder.c.o
+.PHONY : metodos/perder/comprobar_perder.c.o
+
+metodos/perder/comprobar_perder.i: metodos/perder/comprobar_perder.c.i
+.PHONY : metodos/perder/comprobar_perder.i
+
+# target to preprocess a source file
+metodos/perder/comprobar_perder.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/perder/comprobar_perder.c.i
+.PHONY : metodos/perder/comprobar_perder.c.i
+
+metodos/perder/comprobar_perder.s: metodos/perder/comprobar_perder.c.s
+.PHONY : metodos/perder/comprobar_perder.s
+
+# target to generate assembly for a file
+metodos/perder/comprobar_perder.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/perder/comprobar_perder.c.s
+.PHONY : metodos/perder/comprobar_perder.c.s
+
 metodos/piezas/limpiar/limpiar.o: metodos/piezas/limpiar/limpiar.c.o
 .PHONY : metodos/piezas/limpiar/limpiar.o
 
@@ -696,6 +720,9 @@ help:
 	@echo "... metodos/mover/rotar/rotar_normal.o"
 	@echo "... metodos/mover/rotar/rotar_normal.i"
 	@echo "... metodos/mover/rotar/rotar_normal.s"
+	@echo "... metodos/perder/comprobar_perder.o"
+	@echo "... metodos/perder/comprobar_perder.i"
+	@echo "... metodos/perder/comprobar_perder.s"
 	@echo "... metodos/piezas/limpiar/limpiar.o"
 	@echo "... metodos/piezas/limpiar/limpiar.i"
 	@echo "... metodos/piezas/limpiar/limpiar.s"
