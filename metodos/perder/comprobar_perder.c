@@ -14,6 +14,7 @@ static bool verificar_perder();
 
 bool comprobar_perder() {
     if (verificar_perder()) {
+        has_perdido = true;
         return true;
     }
     return false;

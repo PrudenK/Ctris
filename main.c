@@ -1,6 +1,8 @@
 #include <stddef.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <unistd.h>
 
 #include "bolsa_piezas.h"
 #include "tablero/crear_tablero.h"
@@ -14,6 +16,7 @@ int nivel = 1;
 int lineas = 0;
 int puntuacion = 0;
 int TIEMPO_CAIDA = 2000;
+bool has_perdido = false;
 Pieza *pieza = NULL;
 
 void nueva_pieza() {
@@ -38,14 +41,39 @@ void main() {
     while (1) {
         long ahora = get_time_millis();
 
-        if (ahora - ultimo_tick >= TIEMPO_CAIDA) {
-            if (pieza->v_metodos->bajar(pieza)) {
-                imprimir_tablero();
-            }else {
-                nueva_pieza();
+        if (!has_perdido) {
+            if (ahora - ultimo_tick >= TIEMPO_CAIDA) {
+                if (pieza->v_metodos->bajar(pieza)) {
+                    imprimir_tablero();
+                }else {
+                    nueva_pieza();
+                }
+                ultimo_tick = ahora;
             }
-            ultimo_tick = ahora;
+        }else {
+            printf("Has perdido. Pulsa 'r' para reiniciar o 'q' para salir.\n");
+
+            while (1) {
+                char c = getchar();
+                if (c == 'q') {
+                    restaurar_terminal();
+                    pieza->v_metodos->free(pieza);
+                    exit(0);
+                } else if (c == 'r') {
+                    nivel = 1;
+                    puntuacion = 0;
+                    lineas = 0;
+                    cargar_tablero_principal();
+                    nueva_pieza();
+                    has_perdido = false;
+                    ultimo_tick = get_time_millis();
+                    imprimir_tablero();
+                    break;  // salimos del bucle y el juego continúa
+                }
+                usleep(100000);  // para evitar 100% uso de CPU
+            }
         }
+
 
         manejar_input(pieza);
     }

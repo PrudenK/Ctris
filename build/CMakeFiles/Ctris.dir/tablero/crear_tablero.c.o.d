@@ -25,4 +25,5 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
- /home/pruden/CLionProjects/Ctris/tablero/../utils/constantes.h
+ /home/pruden/CLionProjects/Ctris/tablero/../utils/constantes.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h

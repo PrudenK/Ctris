@@ -45,48 +45,51 @@ void manejar_input(Pieza *pieza) {
     timeout.tv_usec = 1000;
 
     if (select(STDIN_FILENO + 1, &read_fds, NULL, NULL, &timeout) > 0) {
-        char c = getchar();
+        if (!has_perdido) {
+            char c = getchar();
 
-        // Si es una secuencia de escape (flechas)
-        if (c == '\033') {
-            getchar(); // omite [
-            c = getchar(); // lee 'A', 'B', 'C' o 'D'
-        }
+            // Si es una secuencia de escape (flechas)
+            if (c == '\033') {
+                getchar(); // omite [
+                c = getchar(); // lee 'A', 'B', 'C' o 'D'
+            }
 
-        switch (c) {
-            case 'A':
-                pieza->v_metodos->rotar(pieza);
-                imprimir_tablero();
-                break;
-            case 'B':
-                if (pieza->v_metodos->bajar(pieza)) {
-                    puntuacion += 2;
+            switch (c) {
+                case 'A':
+                    pieza->v_metodos->rotar(pieza);
                     imprimir_tablero();
-                } else {
+                    break;
+                case 'B':
+                    if (pieza->v_metodos->bajar(pieza)) {
+                        puntuacion += 2;
+                        imprimir_tablero();
+                    } else {
+                        nueva_pieza();
+                    }
+                    break;
+                case 'C':
+                    pieza->v_metodos->derecha(pieza);
+                    imprimir_tablero();
+                    break;
+                case 'D':
+                    pieza->v_metodos->izquierda(pieza);
+                    imprimir_tablero();
+                    break;
+                case ' ':
+                    while (pieza->v_metodos->bajar(pieza)) {
+                        puntuacion += 4;
+                    }
+                    imprimir_tablero();
                     nueva_pieza();
-                }
-                break;
-            case 'C':
-                pieza->v_metodos->derecha(pieza);
-                imprimir_tablero();
-                break;
-            case 'D':
-                pieza->v_metodos->izquierda(pieza);
-                imprimir_tablero();
-                break;
-            case ' ':
-                while (pieza->v_metodos->bajar(pieza)) {
-                    puntuacion += 4;
-                }
-                imprimir_tablero();
-                nueva_pieza();
-                break;
-            case 'q':
-                printf("Saliendo...\n");
-                restaurar_terminal();
-                pieza->v_metodos->free(pieza);
-                exit(0);
-                break;
+                    break;
+                case 'q':
+                    printf("Saliendo...\n");
+                    restaurar_terminal();
+                    pieza->v_metodos->free(pieza);
+                    exit(0);
+                    break;
+            }
+
         }
     }
 }
