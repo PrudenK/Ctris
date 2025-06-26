@@ -20,11 +20,13 @@ static LineasABorrar filas_que_hay_que_borrar();
 int lineas_borradas = 0;
 
 void borrar_linea() {
-    LineasABorrar lineas = filas_que_hay_que_borrar();
-    lineas_borradas += lineas.size;
+    LineasABorrar lineas_que_borrar = filas_que_hay_que_borrar();
+    lineas_borradas += lineas_que_borrar.size;
 
-    for (size_t i = 0; i < lineas.size; i++) {
-        int fila = lineas.filas[i];
+    lineas += (int)lineas_que_borrar.size;
+
+    for (size_t i = 0; i < lineas_que_borrar.size; i++) {
+        int fila = lineas_que_borrar.filas[i];
         for (int j = fila; j > 0; j--) {
             for (int col = 0; col < COLUMNAS; col++) {
                 tablero[j][col] = tablero[j - 1][col];
@@ -40,7 +42,7 @@ void borrar_linea() {
         }
     }
 
-    free(lineas.filas);
+    free(lineas_que_borrar.filas);
 }
 
 void reiniciar_lineas_borradas() {

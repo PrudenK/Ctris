@@ -9,6 +9,9 @@
 #define INTERVALO 2000 // en ms
 
 int tablero[FILAS][COLUMNAS] = {0};
+int nivel = 1;
+int lineas = 0;
+int puntuacion = 0;
 Pieza *pieza = NULL;
 
 void nueva_pieza() {
@@ -16,7 +19,7 @@ void nueva_pieza() {
         pieza->v_metodos->free(pieza);
     }
     pieza = devolver_pieza_aleatoria();
-    pieza->v_metodos->pintar(pieza);   // puede_aparecer
+    pieza->v_metodos->pintar(pieza);   // puede_aparecer??
     imprimir_tablero();
 }
 

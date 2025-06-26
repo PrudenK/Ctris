@@ -27,20 +27,34 @@ void cargar_tablero_principal() {
 
 
 void imprimir_tablero() {
-    for (int i = 0; i < FILAS; i++) {
-        printf("\033[H\033[J");
-    }
-
+    printf("\033[H\033[J");  // Limpia pantalla
     printf("  TABLERO DE LA HOSTIA\n\n");
-
 
     for (int i = 0; i < FILAS; i++) {
         for (int j = 0; j < COLUMNAS; j++) {
             imprimir_celda(tablero[i][j]);
         }
+
+        printf("    ");
+
+        switch (i) {
+            case 10:
+                printf("Nivel: %d", nivel);
+                break;
+            case 12:
+                printf("Líneas: %d", lineas);
+                break;
+            case 14:
+                printf("Puntuación: %d", puntuacion);
+                break;
+            default:
+                break;
+        }
+
         printf("\n");
     }
 }
+
 
 
 void imprimir_celda(int valor) {
