@@ -118,9 +118,6 @@ Pieza_T *crear_pieza_T(int fila, int col) {
         }
     }
 
-
-
-
     pieza_T->base.formas = formas;
 
     pieza_T->base.fila_centro = fila;

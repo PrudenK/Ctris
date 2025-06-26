@@ -12,8 +12,11 @@ int tablero[FILAS][COLUMNAS] = {0};
 Pieza *pieza = NULL;
 
 void nueva_pieza() {
+    if (pieza != NULL) {
+        pieza->v_metodos->free(pieza);
+    }
     pieza = devolver_pieza_aleatoria();
-    pieza->v_metodos->pintar(pieza);
+    pieza->v_metodos->pintar(pieza);   // puede_aparecer
     imprimir_tablero();
 }
 
