@@ -44,33 +44,43 @@ void manejar_input(Pieza *pieza) {
 
     if (select(STDIN_FILENO + 1, &read_fds, NULL, NULL, &timeout) > 0) {
         char c = getchar();
+
+        // Si es una secuencia de escape (flechas)
         if (c == '\033') {
             getchar(); // omite [
-            switch (getchar()) {
-                case 'A':
-                    // pieza->v_metodos->rotar(pieza); // si lo implementás
-                    break;
-                case 'B':
-                    if (pieza->v_metodos->bajar(pieza)) {
-                        imprimir_tablero();
-                    }else {
-                        nueva_pieza();
-                    }
-                    break;
-                case 'C':
-                    pieza->v_metodos->derecha(pieza);
+            c = getchar(); // lee 'A', 'B', 'C' o 'D'
+        }
+
+        switch (c) {
+            case 'A':
+                // pieza->v_metodos->rotar(pieza);
+                break;
+            case 'B':
+                if (pieza->v_metodos->bajar(pieza)) {
                     imprimir_tablero();
-                    break;
-                case 'D':
-                    pieza->v_metodos->izquierda(pieza);
-                    imprimir_tablero();
-                    break;
-            }
-        } else if (c == 'q') {
-            printf("Saliendo...\n");
-            restaurar_terminal();
-            pieza->v_metodos->free(pieza);
-            exit(0);  // salida limpia
+                } else {
+                    nueva_pieza();
+                }
+                break;
+            case 'C':
+                pieza->v_metodos->derecha(pieza);
+                imprimir_tablero();
+                break;
+            case 'D':
+                pieza->v_metodos->izquierda(pieza);
+                imprimir_tablero();
+                break;
+            case ' ':
+                while (pieza->v_metodos->bajar(pieza)){};
+                imprimir_tablero();
+                nueva_pieza();
+                break;
+            case 'q':
+                printf("Saliendo...\n");
+                restaurar_terminal();
+                pieza->v_metodos->free(pieza);
+                exit(0);
+                break;
         }
     }
 }
