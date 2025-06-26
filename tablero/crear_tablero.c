@@ -4,6 +4,7 @@
 
 #include <stdio.h>
 
+#include "bolsa_piezas.h"
 #include "tablero.h"
 #include "../utils/constantes.h"
 
@@ -38,6 +39,9 @@ void imprimir_tablero() {
         printf("    ");
 
         switch (i) {
+            case 7:
+                printf("Siguiente pieza: %s", pieza_siguiente->nombre);
+                break;
             case FILAS -5:
                 printf("Nivel: %d", nivel);
                 break;

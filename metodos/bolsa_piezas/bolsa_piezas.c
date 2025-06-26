@@ -16,15 +16,16 @@
 #include "Pieza_T.h"
 #include "Pieza_Z.h"
 
-#define NUM_TIPOS_PIEZA 7
 Pieza *bolsa[NUM_TIPOS_PIEZA];
 int bolsa_size = 0;
+Pieza *pieza_siguiente = NULL;
+
 
 void cargar_bolsa();
 
 
 Pieza *devolver_pieza_aleatoria() {
-    if (bolsa_size == 0) {
+    if (bolsa_size <= 1) {
         cargar_bolsa();
     }
 

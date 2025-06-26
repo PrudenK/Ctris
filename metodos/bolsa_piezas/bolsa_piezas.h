@@ -5,6 +5,9 @@
 #ifndef BOLSA_PIEZAS_H
 #define BOLSA_PIEZAS_H
 #include "Pieza.h"
-
+#define NUM_TIPOS_PIEZA 7
+extern Pieza *bolsa[NUM_TIPOS_PIEZA];
+extern int bolsa_size;
+extern Pieza *pieza_siguiente;
 Pieza *devolver_pieza_aleatoria();
 #endif //BOLSA_PIEZAS_H
