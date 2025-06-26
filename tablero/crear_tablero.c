@@ -55,16 +55,16 @@ void imprimir_tablero() {
         printf("    ");
 
         switch (i) {
-            case 7:
+            case FILAS - 20:
                 printf("     Siguientes piezas");
                 break;
-            case 9:
+            case FILAS - 18:
                 imprimir_siguientes_fila(0);
                 break;
-            case 10:
+            case FILAS - 17:
                 imprimir_siguientes_fila(1);
                 break;
-            case 11:
+            case FILAS - 16:
                 imprimir_siguientes_fila(2);
                 break;
             case FILAS -5:
