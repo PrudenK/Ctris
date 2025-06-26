@@ -33,6 +33,8 @@ add_executable(Ctris
         piezas/Pieza_L.h
         piezas/Pieza_S.c
         piezas/Pieza_S.h
+        piezas/Pieza_Z.c
+        piezas/Pieza_Z.h
 )
 
 include_directories(
