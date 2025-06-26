@@ -26,6 +26,11 @@ bool bajar_generico(Pieza *self) {
     return true;
 }
 
+bool puede_rotar_generico(Pieza *self, int nueva_orientacion) {
+    printf("Puede rotar");
+    return true;
+}
+
 void derecha_generico(Pieza *self) {
     printf("Derecha");
 }
@@ -45,7 +50,8 @@ const PiezaMetodos metodos_base = {
     .bajar = bajar_generico,
     .derecha = derecha_generico,
     .izquierda = izquierda_generico,
-    .free = free_generico
+    .free = free_generico,
+    .puede_rotar = puede_rotar_generico
 };
 
 Pieza *crear_pieza_base(int fila, int col) {

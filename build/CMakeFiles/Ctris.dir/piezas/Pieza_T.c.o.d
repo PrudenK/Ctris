@@ -61,4 +61,6 @@ CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o: \
  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
  /home/pruden/CLionProjects/Ctris/piezas/../metodos/piezas/limpiar/limpiar.h \
  /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x2.h \
- /home/pruden/CLionProjects/Ctris/metodos/mover/lados/lados_3x2.h
+ /home/pruden/CLionProjects/Ctris/metodos/mover/lados/lados_3x2.h \
+ /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_especial.h \
+ /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_normal.h

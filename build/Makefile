@@ -225,6 +225,54 @@ metodos/mover/lados/lados_3x2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/lados/lados_3x2.c.s
 .PHONY : metodos/mover/lados/lados_3x2.c.s
 
+metodos/mover/rotar/rotar_especial.o: metodos/mover/rotar/rotar_especial.c.o
+.PHONY : metodos/mover/rotar/rotar_especial.o
+
+# target to build an object file
+metodos/mover/rotar/rotar_especial.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.o
+.PHONY : metodos/mover/rotar/rotar_especial.c.o
+
+metodos/mover/rotar/rotar_especial.i: metodos/mover/rotar/rotar_especial.c.i
+.PHONY : metodos/mover/rotar/rotar_especial.i
+
+# target to preprocess a source file
+metodos/mover/rotar/rotar_especial.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.i
+.PHONY : metodos/mover/rotar/rotar_especial.c.i
+
+metodos/mover/rotar/rotar_especial.s: metodos/mover/rotar/rotar_especial.c.s
+.PHONY : metodos/mover/rotar/rotar_especial.s
+
+# target to generate assembly for a file
+metodos/mover/rotar/rotar_especial.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.s
+.PHONY : metodos/mover/rotar/rotar_especial.c.s
+
+metodos/mover/rotar/rotar_normal.o: metodos/mover/rotar/rotar_normal.c.o
+.PHONY : metodos/mover/rotar/rotar_normal.o
+
+# target to build an object file
+metodos/mover/rotar/rotar_normal.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.o
+.PHONY : metodos/mover/rotar/rotar_normal.c.o
+
+metodos/mover/rotar/rotar_normal.i: metodos/mover/rotar/rotar_normal.c.i
+.PHONY : metodos/mover/rotar/rotar_normal.i
+
+# target to preprocess a source file
+metodos/mover/rotar/rotar_normal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.i
+.PHONY : metodos/mover/rotar/rotar_normal.c.i
+
+metodos/mover/rotar/rotar_normal.s: metodos/mover/rotar/rotar_normal.c.s
+.PHONY : metodos/mover/rotar/rotar_normal.s
+
+# target to generate assembly for a file
+metodos/mover/rotar/rotar_normal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.s
+.PHONY : metodos/mover/rotar/rotar_normal.c.s
+
 metodos/piezas/limpiar/limpiar.o: metodos/piezas/limpiar/limpiar.c.o
 .PHONY : metodos/piezas/limpiar/limpiar.o
 
@@ -390,6 +438,12 @@ help:
 	@echo "... metodos/mover/lados/lados_3x2.o"
 	@echo "... metodos/mover/lados/lados_3x2.i"
 	@echo "... metodos/mover/lados/lados_3x2.s"
+	@echo "... metodos/mover/rotar/rotar_especial.o"
+	@echo "... metodos/mover/rotar/rotar_especial.i"
+	@echo "... metodos/mover/rotar/rotar_especial.s"
+	@echo "... metodos/mover/rotar/rotar_normal.o"
+	@echo "... metodos/mover/rotar/rotar_normal.i"
+	@echo "... metodos/mover/rotar/rotar_normal.s"
 	@echo "... metodos/piezas/limpiar/limpiar.o"
 	@echo "... metodos/piezas/limpiar/limpiar.i"
 	@echo "... metodos/piezas/limpiar/limpiar.s"

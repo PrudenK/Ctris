@@ -8,6 +8,7 @@ typedef struct Pieza Pieza;
 typedef struct {
     void (*pintar)(Pieza *self);
     bool (*rotar)(Pieza *self);
+    bool (*puede_rotar)(Pieza *self, int nueva_orientacion);
     void (*limpiar)(Pieza *self);
     bool (*bajar)(Pieza *self);
     void (*derecha)(Pieza *self);

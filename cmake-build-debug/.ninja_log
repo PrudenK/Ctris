@@ -9,3 +9,16 @@
 0	22	1750870638878613555	CMakeFiles/Ctris.dir/main.c.o	1d565957df894834
 1	14	1750870052319243727	CMakeFiles/Ctris.dir/metodos/piezas/pintar/pintar.c.o	278ddb578d0d42ff
 1	20	1750870052319243727	CMakeFiles/Ctris.dir/piezas/Pieza.c.o	de84e621b69ea92b
+1	16	1750911880241411541	CMakeFiles/Ctris.dir/metodos/piezas/pintar/pintar.c.o	d063f68e4cbe3ff1
+2	18	1750911880242411510	CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.o	55db59e252ebd65d
+0	18	1750911880240411571	CMakeFiles/Ctris.dir/main.c.o	a27e26ba662391fd
+1	18	1750911880241411541	CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o	97094e58c6c6891a
+1	18	1750911880241411541	CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o	9f945537b92ecf79
+2	19	1750911880242411510	CMakeFiles/Ctris.dir/metodos/mover/lados/lados_3x2.c.o	76fe5499c47e1a21
+2	20	1750911880242411510	CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.o	1bd79a1e9e74de12
+1	22	1750911880241411541	CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o	adf984daadb9621f
+1	22	1750911880241411541	CMakeFiles/Ctris.dir/metodos/bolsa_piezas/bolsa_piezas.c.o	a72d2c905960cc8b
+0	25	1750911880240411571	CMakeFiles/Ctris.dir/piezas/Pieza.c.o	4c4278d94c3edf0c
+1	29	1750911880241411541	CMakeFiles/Ctris.dir/metodos/teclado/teclado.c.o	28f3bcb19956b2dc
+1	30	1750911880241411541	CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o	a81dfba489b7aa17
+30	47	1750911880270410652	Ctris	907afc98703c84c5

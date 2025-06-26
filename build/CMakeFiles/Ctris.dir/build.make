@@ -209,6 +209,34 @@ CMakeFiles/Ctris.dir/metodos/mover/lados/lados_3x2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Ctris.dir/metodos/mover/lados/lados_3x2.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pruden/CLionProjects/Ctris/metodos/mover/lados/lados_3x2.c -o CMakeFiles/Ctris.dir/metodos/mover/lados/lados_3x2.c.s
 
+CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.o: CMakeFiles/Ctris.dir/flags.make
+CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.o: /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_normal.c
+CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.o: CMakeFiles/Ctris.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pruden/CLionProjects/Ctris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.o -MF CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.o.d -o CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.o -c /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_normal.c
+
+CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_normal.c > CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.i
+
+CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_normal.c -o CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.s
+
+CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.o: CMakeFiles/Ctris.dir/flags.make
+CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.o: /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_especial.c
+CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.o: CMakeFiles/Ctris.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pruden/CLionProjects/Ctris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.o -MF CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.o.d -o CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.o -c /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_especial.c
+
+CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_especial.c > CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.i
+
+CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_especial.c -o CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.s
+
 # Object files for target Ctris
 Ctris_OBJECTS = \
 "CMakeFiles/Ctris.dir/main.c.o" \
@@ -220,7 +248,9 @@ Ctris_OBJECTS = \
 "CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o" \
 "CMakeFiles/Ctris.dir/metodos/teclado/teclado.c.o" \
 "CMakeFiles/Ctris.dir/metodos/bolsa_piezas/bolsa_piezas.c.o" \
-"CMakeFiles/Ctris.dir/metodos/mover/lados/lados_3x2.c.o"
+"CMakeFiles/Ctris.dir/metodos/mover/lados/lados_3x2.c.o" \
+"CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.o" \
+"CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.o"
 
 # External object files for target Ctris
 Ctris_EXTERNAL_OBJECTS =
@@ -235,9 +265,11 @@ Ctris: CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o
 Ctris: CMakeFiles/Ctris.dir/metodos/teclado/teclado.c.o
 Ctris: CMakeFiles/Ctris.dir/metodos/bolsa_piezas/bolsa_piezas.c.o
 Ctris: CMakeFiles/Ctris.dir/metodos/mover/lados/lados_3x2.c.o
+Ctris: CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.o
+Ctris: CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.o
 Ctris: CMakeFiles/Ctris.dir/build.make
 Ctris: CMakeFiles/Ctris.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/pruden/CLionProjects/Ctris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable Ctris"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/pruden/CLionProjects/Ctris/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C executable Ctris"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Ctris.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

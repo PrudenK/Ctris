@@ -10,6 +10,8 @@
 #include "../metodos/piezas/limpiar/limpiar.h"
 #include "mover/bajar/bajar_3x2.h"
 #include "mover/lados/lados_3x2.h"
+#include "mover/rotar/rotar_especial.h"
+#include "mover/rotar/rotar_normal.h"
 
 
 #define NUM_PIEZA_T 3
@@ -51,13 +53,45 @@ static void pintar_T(Pieza *pieza) {
    pieza->columna_centro = col_centro;
 }
 
-static bool rotar_T(Pieza *pieza) {
-    pieza->orientacion = (pieza->orientacion + 1) % 4;
-    return true;
-}
-
 static void limpiar_T(Pieza *pieza) {
     limpiar_pieza(pieza);
+}
+
+static bool rotar_T(Pieza *pieza) {
+    return rotar_normal(pieza, 4);
+}
+
+static bool puede_rotar_T(Pieza *pieza, int nueva_orientacion) {
+    pieza->condicion_especial = false;
+
+    int cc = pieza->columna_centro;
+    int fc = pieza->fila_centro;
+
+    if (nueva_orientacion == 0) {
+        if (cc != COLUMNAS -1) {
+            if (tablero[fc][cc+1] == BLANCO) {
+                return true;
+            }else return condicion_rotar_especial(pieza, (int[]){ -1, 0 }, (int[]){ -1, -2 }, true, -1, 2);
+        }else return condicion_rotar_especial(pieza,(int[]){-1, 0},(int[]){-1, -2}, true, -1, 2);
+    }else if (nueva_orientacion == 1) {
+        if (fc != FILAS - 1) {
+            if (tablero[fc+1][cc] == BLANCO) {
+                return true;
+            }else return condicion_rotar_especial(pieza,(int[]){-2, -1},(int[]){0, 1}, false, -1, 2);
+        }else return condicion_rotar_especial(pieza,(int[]){-2, -1},(int[]){0, 1}, false, -1, 2);
+    }else if (nueva_orientacion == 2) {
+        if (cc != 0) {
+            if (tablero[fc][cc -1] == BLANCO) {
+                return true;
+            }else return condicion_rotar_especial(pieza,(int[]){1, 0},(int[]){1, 2}, true, +1, 2);
+        }else return condicion_rotar_especial(pieza,(int[]){1, 0},(int[]){1, 2}, true, +1, 2);
+    }else {
+        if (fc != 0) {
+            if (tablero[fc -1][cc] == BLANCO) {
+                return true;
+            }else return condicion_rotar_especial(pieza,(int[]){1, 2},(int[]){-1, 0}, false, +1, 2);
+        }else return condicion_rotar_especial(pieza,(int[]){1, 2},(int[]){-1, 0}, false, +1, 2);
+    }
 }
 
 static bool bajar_T(Pieza *pieza) {
@@ -92,7 +126,8 @@ static const PiezaMetodos metodos_T = {
     .bajar = bajar_T,
     .derecha = derecha_T,
     .izquierda = izquierda_T,
-    .free = free_T
+    .free = free_T,
+    .puede_rotar = puede_rotar_T
 };
 
 Pieza_T *crear_pieza_T(int fila, int col) {

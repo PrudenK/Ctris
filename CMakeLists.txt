@@ -23,6 +23,10 @@ add_executable(Ctris
         metodos/bolsa_piezas/bolsa_piezas.h
         metodos/mover/lados/lados_3x2.c
         metodos/mover/lados/lados_3x2.h
+        metodos/mover/rotar/rotar_normal.c
+        metodos/mover/rotar/rotar_normal.h
+        metodos/mover/rotar/rotar_especial.c
+        metodos/mover/rotar/rotar_especial.h
 )
 
 include_directories(

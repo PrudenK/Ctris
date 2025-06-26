@@ -53,7 +53,8 @@ void manejar_input(Pieza *pieza) {
 
         switch (c) {
             case 'A':
-                // pieza->v_metodos->rotar(pieza);
+                pieza->v_metodos->rotar(pieza);
+                imprimir_tablero();
                 break;
             case 'B':
                 if (pieza->v_metodos->bajar(pieza)) {

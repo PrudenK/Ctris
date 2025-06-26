@@ -103,6 +103,21 @@ CMakeFiles/Ctris.dir/metodos/mover/lados/lados_3x2.c.o: /home/pruden/CLionProjec
   /usr/include/stdc-predef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h
 
+CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.o: /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_especial.c \
+  /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_especial.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
+  /home/pruden/CLionProjects/Ctris/utils/constantes.h \
+  /home/pruden/CLionProjects/Ctris/tablero/tablero.h \
+  /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+
+CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_normal.c.o: /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_normal.c \
+  /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_normal.h \
+  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
+  /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h
+
 CMakeFiles/Ctris.dir/metodos/piezas/limpiar/limpiar.c.o: /home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.c \
   /home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.h \
   /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
@@ -291,6 +306,8 @@ CMakeFiles/Ctris.dir/piezas/Pieza.c.o: /home/pruden/CLionProjects/Ctris/piezas/P
 CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o: /home/pruden/CLionProjects/Ctris/piezas/Pieza_T.c \
   /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x2.h \
   /home/pruden/CLionProjects/Ctris/metodos/mover/lados/lados_3x2.h \
+  /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_especial.h \
+  /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_normal.h \
   /home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.h \
   /home/pruden/CLionProjects/Ctris/metodos/piezas/pintar/pintar.h \
   /home/pruden/CLionProjects/Ctris/utils/constantes.h \
@@ -430,13 +447,19 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 
 /home/pruden/CLionProjects/Ctris/metodos/piezas/pintar/pintar.h:
 
-/home/pruden/CLionProjects/Ctris/metodos/piezas/pintar/pintar.c:
-
 /home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.h:
 
 /home/pruden/CLionProjects/Ctris/metodos/piezas/limpiar/limpiar.c:
 
+/home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_normal.c:
+
+/home/pruden/CLionProjects/Ctris/metodos/piezas/pintar/pintar.c:
+
+/home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_especial.c:
+
 /home/pruden/CLionProjects/Ctris/metodos/mover/lados/lados_3x2.c:
+
+/home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_normal.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
@@ -541,6 +564,8 @@ CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o: /home/pruden/CLionProjects/Ctris
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 /usr/include/x86_64-linux-gnu/bits/stat.h:
+
+/home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_especial.h:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
