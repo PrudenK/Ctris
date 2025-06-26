@@ -1,7 +1,7 @@
-CMakeFiles/Ctris.dir/metodos/bolsa_piezas/bolsa_piezas.c.o: \
- /home/pruden/CLionProjects/Ctris/metodos/bolsa_piezas/bolsa_piezas.c \
+CMakeFiles/Ctris.dir/piezas/Pieza_I.c.o: \
+ /home/pruden/CLionProjects/Ctris/piezas/Pieza_I.c \
  /usr/include/stdc-predef.h \
- /home/pruden/CLionProjects/Ctris/metodos/bolsa_piezas/bolsa_piezas.h \
+ /home/pruden/CLionProjects/Ctris/piezas/Pieza_I.h \
  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -42,13 +42,27 @@ CMakeFiles/Ctris.dir/metodos/bolsa_piezas/bolsa_piezas.c.o: \
  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/pruden/CLionProjects/Ctris/utils/constantes.h \
- /home/pruden/CLionProjects/Ctris/piezas/Pieza_I.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/strings.h /usr/include/stdio.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_4x1.h \
  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
- /home/pruden/CLionProjects/Ctris/piezas/Pieza_J.h \
- /home/pruden/CLionProjects/Ctris/piezas/Pieza_L.h \
- /home/pruden/CLionProjects/Ctris/piezas/Pieza_O.h \
- /home/pruden/CLionProjects/Ctris/piezas/Pieza_S.h \
- /home/pruden/CLionProjects/Ctris/piezas/Pieza_T.h \
- /home/pruden/CLionProjects/Ctris/piezas/Pieza_Z.h
+ /home/pruden/CLionProjects/Ctris/piezas/../tablero/tablero.h \
+ /home/pruden/CLionProjects/Ctris/piezas/../tablero/../utils/constantes.h \
+ /home/pruden/CLionProjects/Ctris/piezas/../metodos/piezas/pintar/pintar.h \
+ /home/pruden/CLionProjects/Ctris/piezas/../metodos/piezas/limpiar/limpiar.h \
+ /home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x2.h \
+ /home/pruden/CLionProjects/Ctris/metodos/mover/lados/lados_3x2.h \
+ /home/pruden/CLionProjects/Ctris/metodos/mover/lados/lados_4x1.h \
+ /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_especial.h \
+ /home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_normal.h

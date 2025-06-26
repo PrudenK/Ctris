@@ -225,6 +225,30 @@ metodos/mover/bajar/bajar_3x2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.s
 .PHONY : metodos/mover/bajar/bajar_3x2.c.s
 
+metodos/mover/bajar/bajar_4x1.o: metodos/mover/bajar/bajar_4x1.c.o
+.PHONY : metodos/mover/bajar/bajar_4x1.o
+
+# target to build an object file
+metodos/mover/bajar/bajar_4x1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_4x1.c.o
+.PHONY : metodos/mover/bajar/bajar_4x1.c.o
+
+metodos/mover/bajar/bajar_4x1.i: metodos/mover/bajar/bajar_4x1.c.i
+.PHONY : metodos/mover/bajar/bajar_4x1.i
+
+# target to preprocess a source file
+metodos/mover/bajar/bajar_4x1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_4x1.c.i
+.PHONY : metodos/mover/bajar/bajar_4x1.c.i
+
+metodos/mover/bajar/bajar_4x1.s: metodos/mover/bajar/bajar_4x1.c.s
+.PHONY : metodos/mover/bajar/bajar_4x1.s
+
+# target to generate assembly for a file
+metodos/mover/bajar/bajar_4x1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_4x1.c.s
+.PHONY : metodos/mover/bajar/bajar_4x1.c.s
+
 metodos/mover/lados/lados_3x2.o: metodos/mover/lados/lados_3x2.c.o
 .PHONY : metodos/mover/lados/lados_3x2.o
 
@@ -248,6 +272,30 @@ metodos/mover/lados/lados_3x2.s: metodos/mover/lados/lados_3x2.c.s
 metodos/mover/lados/lados_3x2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/lados/lados_3x2.c.s
 .PHONY : metodos/mover/lados/lados_3x2.c.s
+
+metodos/mover/lados/lados_4x1.o: metodos/mover/lados/lados_4x1.c.o
+.PHONY : metodos/mover/lados/lados_4x1.o
+
+# target to build an object file
+metodos/mover/lados/lados_4x1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/lados/lados_4x1.c.o
+.PHONY : metodos/mover/lados/lados_4x1.c.o
+
+metodos/mover/lados/lados_4x1.i: metodos/mover/lados/lados_4x1.c.i
+.PHONY : metodos/mover/lados/lados_4x1.i
+
+# target to preprocess a source file
+metodos/mover/lados/lados_4x1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/lados/lados_4x1.c.i
+.PHONY : metodos/mover/lados/lados_4x1.c.i
+
+metodos/mover/lados/lados_4x1.s: metodos/mover/lados/lados_4x1.c.s
+.PHONY : metodos/mover/lados/lados_4x1.s
+
+# target to generate assembly for a file
+metodos/mover/lados/lados_4x1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/lados/lados_4x1.c.s
+.PHONY : metodos/mover/lados/lados_4x1.c.s
 
 metodos/mover/rotar/rotar_especial.o: metodos/mover/rotar/rotar_especial.c.o
 .PHONY : metodos/mover/rotar/rotar_especial.o
@@ -392,6 +440,30 @@ piezas/Pieza.s: piezas/Pieza.c.s
 piezas/Pieza.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/piezas/Pieza.c.s
 .PHONY : piezas/Pieza.c.s
+
+piezas/Pieza_I.o: piezas/Pieza_I.c.o
+.PHONY : piezas/Pieza_I.o
+
+# target to build an object file
+piezas/Pieza_I.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/piezas/Pieza_I.c.o
+.PHONY : piezas/Pieza_I.c.o
+
+piezas/Pieza_I.i: piezas/Pieza_I.c.i
+.PHONY : piezas/Pieza_I.i
+
+# target to preprocess a source file
+piezas/Pieza_I.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/piezas/Pieza_I.c.i
+.PHONY : piezas/Pieza_I.c.i
+
+piezas/Pieza_I.s: piezas/Pieza_I.c.s
+.PHONY : piezas/Pieza_I.s
+
+# target to generate assembly for a file
+piezas/Pieza_I.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/piezas/Pieza_I.c.s
+.PHONY : piezas/Pieza_I.c.s
 
 piezas/Pieza_J.o: piezas/Pieza_J.c.o
 .PHONY : piezas/Pieza_J.o
@@ -582,9 +654,15 @@ help:
 	@echo "... metodos/mover/bajar/bajar_3x2.o"
 	@echo "... metodos/mover/bajar/bajar_3x2.i"
 	@echo "... metodos/mover/bajar/bajar_3x2.s"
+	@echo "... metodos/mover/bajar/bajar_4x1.o"
+	@echo "... metodos/mover/bajar/bajar_4x1.i"
+	@echo "... metodos/mover/bajar/bajar_4x1.s"
 	@echo "... metodos/mover/lados/lados_3x2.o"
 	@echo "... metodos/mover/lados/lados_3x2.i"
 	@echo "... metodos/mover/lados/lados_3x2.s"
+	@echo "... metodos/mover/lados/lados_4x1.o"
+	@echo "... metodos/mover/lados/lados_4x1.i"
+	@echo "... metodos/mover/lados/lados_4x1.s"
 	@echo "... metodos/mover/rotar/rotar_especial.o"
 	@echo "... metodos/mover/rotar/rotar_especial.i"
 	@echo "... metodos/mover/rotar/rotar_especial.s"
@@ -603,6 +681,9 @@ help:
 	@echo "... piezas/Pieza.o"
 	@echo "... piezas/Pieza.i"
 	@echo "... piezas/Pieza.s"
+	@echo "... piezas/Pieza_I.o"
+	@echo "... piezas/Pieza_I.i"
+	@echo "... piezas/Pieza_I.s"
 	@echo "... piezas/Pieza_J.o"
 	@echo "... piezas/Pieza_J.i"
 	@echo "... piezas/Pieza_J.s"
