@@ -37,3 +37,8 @@
 2	21	1750912844611067385	CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o	adf984daadb9621f
 1	26	1750912844610067384	CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o	a81dfba489b7aa17
 26	42	1750912844635067386	Ctris	907afc98703c84c5
+1	16	1750913417442363327	CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o	97094e58c6c6891a
+1	17	1750913417442363327	CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o	adf984daadb9621f
+17	30	1750913417458363388	Ctris	907afc98703c84c5
+0	18	1750913573101864606	CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o	97094e58c6c6891a
+18	33	1750913573119864137	Ctris	907afc98703c84c5
