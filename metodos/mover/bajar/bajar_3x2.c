@@ -30,7 +30,7 @@ bool bajar_3x2(Pieza *pieza, const int *d) {
                         && tablero[fc+d[2]][cc + 1] == BLANCO;
             break;
         case 1:
-            puede_bajar =  tablero[fc+d[6]][cc - 1] == BLANCO
+            puede_bajar =  tablero[fc+d[6]][cc] == BLANCO
                            && tablero[fc+d[7]][cc + 1] == BLANCO;
             break;
         case 2:
@@ -39,8 +39,8 @@ bool bajar_3x2(Pieza *pieza, const int *d) {
                         && tablero[fc+d[5]][cc + 1] == BLANCO;
             break;
         case 3:
-            puede_bajar =  tablero[fc+d[6]][cc - 1] == BLANCO
-                        && tablero[fc+d[7]][cc + 1] == BLANCO;
+            puede_bajar =  tablero[fc+d[8]][cc] == BLANCO
+                        && tablero[fc+d[9]][cc - 1] == BLANCO;
             break;
         default:
             puede_bajar = false;
