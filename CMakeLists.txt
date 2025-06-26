@@ -27,6 +27,8 @@ add_executable(Ctris
         metodos/mover/rotar/rotar_normal.h
         metodos/mover/rotar/rotar_especial.c
         metodos/mover/rotar/rotar_especial.h
+        piezas/Pieza_J.c
+        piezas/Pieza_J.h
 )
 
 include_directories(

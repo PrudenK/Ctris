@@ -8,9 +8,10 @@
 
 #include "constantes.h"
 #include "Pieza.h"
+#include "Pieza_J.h"
 #include "Pieza_T.h"
 
-#define NUM_TIPOS_PIEZA 1
+#define NUM_TIPOS_PIEZA 2
 Pieza *bolsa[NUM_TIPOS_PIEZA];
 int bolsa_size = 0;
 
@@ -34,11 +35,11 @@ void cargar_bolsa() {
     //bolsa[3] = (Pieza *)crear_pieza_S(0, columnaInicial);
     //bolsa[4] = (Pieza *)crear_pieza_Z(0, columnaInicial);
     //bolsa[5] = (Pieza *)crear_pieza_L(0, columnaInicial);
-    //bolsa[6] = (Pieza *)crear_pieza_J(0, columnaInicial);
+    bolsa[1] = (Pieza *)crear_pieza_J(-1, columnaInicial);
 
     bolsa_size = NUM_TIPOS_PIEZA;
 
-    /*
+
     // Mezclar (Fisher-Yates)
 
     for (int i = NUM_TIPOS_PIEZA - 1; i > 0; i--) {
@@ -46,5 +47,5 @@ void cargar_bolsa() {
         Pieza *tmp = bolsa[i];
         bolsa[i] = bolsa[j];
         bolsa[j] = tmp;
-    }*/
+    }
 }

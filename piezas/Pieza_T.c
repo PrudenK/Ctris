@@ -17,7 +17,6 @@
 #define NUM_PIEZA_T 3
 #define CENTRO_T 38
 #define COLOR_T 'T'
-#define BLANCO 0
 #define NUM_ROTACIONES_M_T 4
 #define ANCHO_M_T 3
 #define ALTO_M_T 3

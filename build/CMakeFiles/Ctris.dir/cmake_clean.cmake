@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Ctris.dir/metodos/teclado/teclado.c.o.d"
   "CMakeFiles/Ctris.dir/piezas/Pieza.c.o"
   "CMakeFiles/Ctris.dir/piezas/Pieza.c.o.d"
+  "CMakeFiles/Ctris.dir/piezas/Pieza_J.c.o"
+  "CMakeFiles/Ctris.dir/piezas/Pieza_J.c.o.d"
   "CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o"
   "CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o.d"
   "CMakeFiles/Ctris.dir/tablero/crear_tablero.c.o"
