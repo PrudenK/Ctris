@@ -10,11 +10,12 @@
 #include "Pieza.h"
 #include "Pieza_J.h"
 #include "Pieza_L.h"
+#include "Pieza_O.h"
 #include "Pieza_S.h"
 #include "Pieza_T.h"
 #include "Pieza_Z.h"
 
-#define NUM_TIPOS_PIEZA 5
+#define NUM_TIPOS_PIEZA 6
 Pieza *bolsa[NUM_TIPOS_PIEZA];
 int bolsa_size = 0;
 
@@ -33,7 +34,7 @@ Pieza *devolver_pieza_aleatoria() {
 void cargar_bolsa() {
     int columnaInicial = COLUMNAS / 2;
     //bolsa[0] = (Pieza *)crear_pieza_I(0, columnaInicial);
-    //bolsa[1] = (Pieza *)crear_pieza_O(0, columnaInicial);
+    bolsa[5] = (Pieza *)crear_pieza_O(-1, columnaInicial);
     bolsa[0] = (Pieza *)crear_pieza_T(-1, columnaInicial);
     bolsa[3] = (Pieza *)crear_pieza_S(-1, columnaInicial);
     bolsa[4] = (Pieza *)crear_pieza_Z(-1, columnaInicial);

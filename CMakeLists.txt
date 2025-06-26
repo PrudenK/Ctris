@@ -35,6 +35,10 @@ add_executable(Ctris
         piezas/Pieza_S.h
         piezas/Pieza_Z.c
         piezas/Pieza_Z.h
+        piezas/Pieza_O.c
+        piezas/Pieza_O.h
+        metodos/mover/bajar/bajar_2x2.c
+        metodos/mover/bajar/bajar_2x2.h
 )
 
 include_directories(

@@ -177,6 +177,30 @@ metodos/bolsa_piezas/bolsa_piezas.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/bolsa_piezas/bolsa_piezas.c.s
 .PHONY : metodos/bolsa_piezas/bolsa_piezas.c.s
 
+metodos/mover/bajar/bajar_2x2.o: metodos/mover/bajar/bajar_2x2.c.o
+.PHONY : metodos/mover/bajar/bajar_2x2.o
+
+# target to build an object file
+metodos/mover/bajar/bajar_2x2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_2x2.c.o
+.PHONY : metodos/mover/bajar/bajar_2x2.c.o
+
+metodos/mover/bajar/bajar_2x2.i: metodos/mover/bajar/bajar_2x2.c.i
+.PHONY : metodos/mover/bajar/bajar_2x2.i
+
+# target to preprocess a source file
+metodos/mover/bajar/bajar_2x2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_2x2.c.i
+.PHONY : metodos/mover/bajar/bajar_2x2.c.i
+
+metodos/mover/bajar/bajar_2x2.s: metodos/mover/bajar/bajar_2x2.c.s
+.PHONY : metodos/mover/bajar/bajar_2x2.s
+
+# target to generate assembly for a file
+metodos/mover/bajar/bajar_2x2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_2x2.c.s
+.PHONY : metodos/mover/bajar/bajar_2x2.c.s
+
 metodos/mover/bajar/bajar_3x2.o: metodos/mover/bajar/bajar_3x2.c.o
 .PHONY : metodos/mover/bajar/bajar_3x2.o
 
@@ -417,6 +441,30 @@ piezas/Pieza_L.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/piezas/Pieza_L.c.s
 .PHONY : piezas/Pieza_L.c.s
 
+piezas/Pieza_O.o: piezas/Pieza_O.c.o
+.PHONY : piezas/Pieza_O.o
+
+# target to build an object file
+piezas/Pieza_O.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/piezas/Pieza_O.c.o
+.PHONY : piezas/Pieza_O.c.o
+
+piezas/Pieza_O.i: piezas/Pieza_O.c.i
+.PHONY : piezas/Pieza_O.i
+
+# target to preprocess a source file
+piezas/Pieza_O.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/piezas/Pieza_O.c.i
+.PHONY : piezas/Pieza_O.c.i
+
+piezas/Pieza_O.s: piezas/Pieza_O.c.s
+.PHONY : piezas/Pieza_O.s
+
+# target to generate assembly for a file
+piezas/Pieza_O.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ctris.dir/build.make CMakeFiles/Ctris.dir/piezas/Pieza_O.c.s
+.PHONY : piezas/Pieza_O.c.s
+
 piezas/Pieza_S.o: piezas/Pieza_S.c.o
 .PHONY : piezas/Pieza_S.o
 
@@ -528,6 +576,9 @@ help:
 	@echo "... metodos/bolsa_piezas/bolsa_piezas.o"
 	@echo "... metodos/bolsa_piezas/bolsa_piezas.i"
 	@echo "... metodos/bolsa_piezas/bolsa_piezas.s"
+	@echo "... metodos/mover/bajar/bajar_2x2.o"
+	@echo "... metodos/mover/bajar/bajar_2x2.i"
+	@echo "... metodos/mover/bajar/bajar_2x2.s"
 	@echo "... metodos/mover/bajar/bajar_3x2.o"
 	@echo "... metodos/mover/bajar/bajar_3x2.i"
 	@echo "... metodos/mover/bajar/bajar_3x2.s"
@@ -558,6 +609,9 @@ help:
 	@echo "... piezas/Pieza_L.o"
 	@echo "... piezas/Pieza_L.i"
 	@echo "... piezas/Pieza_L.s"
+	@echo "... piezas/Pieza_O.o"
+	@echo "... piezas/Pieza_O.i"
+	@echo "... piezas/Pieza_O.s"
 	@echo "... piezas/Pieza_S.o"
 	@echo "... piezas/Pieza_S.i"
 	@echo "... piezas/Pieza_S.s"

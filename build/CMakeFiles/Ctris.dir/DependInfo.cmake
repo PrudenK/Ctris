@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/pruden/CLionProjects/Ctris/main.c" "CMakeFiles/Ctris.dir/main.c.o" "gcc" "CMakeFiles/Ctris.dir/main.c.o.d"
   "/home/pruden/CLionProjects/Ctris/metodos/bolsa_piezas/bolsa_piezas.c" "CMakeFiles/Ctris.dir/metodos/bolsa_piezas/bolsa_piezas.c.o" "gcc" "CMakeFiles/Ctris.dir/metodos/bolsa_piezas/bolsa_piezas.c.o.d"
+  "/home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_2x2.c" "CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_2x2.c.o" "gcc" "CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_2x2.c.o.d"
   "/home/pruden/CLionProjects/Ctris/metodos/mover/bajar/bajar_3x2.c" "CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o" "gcc" "CMakeFiles/Ctris.dir/metodos/mover/bajar/bajar_3x2.c.o.d"
   "/home/pruden/CLionProjects/Ctris/metodos/mover/lados/lados_3x2.c" "CMakeFiles/Ctris.dir/metodos/mover/lados/lados_3x2.c.o" "gcc" "CMakeFiles/Ctris.dir/metodos/mover/lados/lados_3x2.c.o.d"
   "/home/pruden/CLionProjects/Ctris/metodos/mover/rotar/rotar_especial.c" "CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.o" "gcc" "CMakeFiles/Ctris.dir/metodos/mover/rotar/rotar_especial.c.o.d"
@@ -20,6 +21,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/pruden/CLionProjects/Ctris/piezas/Pieza.c" "CMakeFiles/Ctris.dir/piezas/Pieza.c.o" "gcc" "CMakeFiles/Ctris.dir/piezas/Pieza.c.o.d"
   "/home/pruden/CLionProjects/Ctris/piezas/Pieza_J.c" "CMakeFiles/Ctris.dir/piezas/Pieza_J.c.o" "gcc" "CMakeFiles/Ctris.dir/piezas/Pieza_J.c.o.d"
   "/home/pruden/CLionProjects/Ctris/piezas/Pieza_L.c" "CMakeFiles/Ctris.dir/piezas/Pieza_L.c.o" "gcc" "CMakeFiles/Ctris.dir/piezas/Pieza_L.c.o.d"
+  "/home/pruden/CLionProjects/Ctris/piezas/Pieza_O.c" "CMakeFiles/Ctris.dir/piezas/Pieza_O.c.o" "gcc" "CMakeFiles/Ctris.dir/piezas/Pieza_O.c.o.d"
   "/home/pruden/CLionProjects/Ctris/piezas/Pieza_S.c" "CMakeFiles/Ctris.dir/piezas/Pieza_S.c.o" "gcc" "CMakeFiles/Ctris.dir/piezas/Pieza_S.c.o.d"
   "/home/pruden/CLionProjects/Ctris/piezas/Pieza_T.c" "CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o" "gcc" "CMakeFiles/Ctris.dir/piezas/Pieza_T.c.o.d"
   "/home/pruden/CLionProjects/Ctris/piezas/Pieza_Z.c" "CMakeFiles/Ctris.dir/piezas/Pieza_Z.c.o" "gcc" "CMakeFiles/Ctris.dir/piezas/Pieza_Z.c.o.d"
