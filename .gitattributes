@@ -1,7 +1,7 @@
-cmake-build-debug/ linguist-vendored
-CMakeFiles/ linguist-generated
 CMakeLists.txt linguist-generated
 *.cmake linguist-generated
-Testing/ linguist-vendored
 Makefile linguist-generated
+build/ linguist-generated
+cmake-build-debug/ linguist-generated
 CMakeFiles/** linguist-generated
+Testing/ linguist-generated
