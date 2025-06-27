@@ -5,3 +5,5 @@ build/ linguist-generated
 cmake-build-debug/ linguist-generated
 CMakeFiles/** linguist-generated
 Testing/ linguist-generated
+build/** linguist-vendored
+cmake-build-debug/** linguist-vendored
