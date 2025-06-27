@@ -75,6 +75,7 @@ void main() {
                     pieza->v_metodos->free(pieza);
                     exit(0);
                 } else if (c == 'r') {
+                    TIEMPO_CAIDA = 2000;
                     nivel = 1;
                     puntuacion = 0;
                     lineas = 0;

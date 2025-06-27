@@ -87,7 +87,9 @@ static void actualizar_al_completar_linea(int num_lineas) {
 
     // De momento solo funciona para LINEAS_X_NIVEL >= máximo de lineas que puedes completar en un solo movmiento
     if (nuevo_nivel + 1 > nivel) {
-        TIEMPO_CAIDA -= SALTO_TEIMPO_X_NIVEL;
+        if (TIEMPO_CAIDA > 200) {
+            TIEMPO_CAIDA -= SALTO_TEIMPO_X_NIVEL;
+        }
         nivel++;
     }
 }
