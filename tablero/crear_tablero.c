@@ -67,6 +67,29 @@ void imprimir_tablero() {
             case FILAS - 16:
                 imprimir_siguientes_fila(2);
                 break;
+
+            case FILAS - 13:
+                if (pieza_hold != NULL) {
+                    printf("Pieza en hold. (pulsa h)");
+                }else {
+                    printf("Pieza en hold. (No hay, pulsa h)");
+                }
+                break;
+
+            case FILAS - 11:
+            case FILAS - 10:
+            case FILAS - 9:
+                printf("      ");
+                if (copia_pieza_hold != NULL) {
+                    int fila = i - (FILAS - 11); // 0, 1 o 2
+                    if (fila < copia_pieza_hold->alto_m) {
+                        for (int j = 0; j < copia_pieza_hold->ancho_m; j++) {
+                            imprimir_celda(copia_pieza_hold->formas[0][fila][j]);
+                        }
+                    }
+                }
+                break;
+
             case FILAS -5:
                 printf("Nivel: %d", nivel);
                 break;

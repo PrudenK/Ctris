@@ -5,6 +5,7 @@
 #include "bolsa_piezas.h"
 
 #include <stdlib.h>
+#include <string.h>
 
 #include "constantes.h"
 #include "Pieza.h"
@@ -56,4 +57,27 @@ void cargar_bolsa() {
         bolsa[i] = bolsa[j];
         bolsa[j] = tmp;
     }
+}
+
+Pieza *clonar_por_nombre(const char *nombre) {
+    int fila = -1;
+    int col = COLUMNAS / 2;
+
+    if (strcmp(nombre, "Pieza_I") == 0) {
+        return (Pieza *)crear_pieza_I(fila, col);
+    } else if (strcmp(nombre, "Pieza_O") == 0) {
+        return (Pieza *)crear_pieza_O(fila, col);
+    } else if (strcmp(nombre, "Pieza_T") == 0) {
+        return (Pieza *)crear_pieza_T(fila, col);
+    } else if (strcmp(nombre, "Pieza_S") == 0) {
+        return (Pieza *)crear_pieza_S(fila, col);
+    } else if (strcmp(nombre, "Pieza_Z") == 0) {
+        return (Pieza *)crear_pieza_Z(fila, col);
+    } else if (strcmp(nombre, "Pieza_L") == 0) {
+        return (Pieza *)crear_pieza_L(fila, col);
+    } else if (strcmp(nombre, "Pieza_J") == 0) {
+        return (Pieza *)crear_pieza_J(fila, col);
+    }
+
+    return NULL;
 }

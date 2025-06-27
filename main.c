@@ -21,6 +21,7 @@ bool has_perdido = false;
 bool puedes_holdear = true;
 Pieza *pieza = NULL;
 Pieza *pieza_hold = NULL;
+Pieza *copia_pieza_hold = NULL;
 
 
 void nueva_pieza() {

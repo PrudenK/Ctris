@@ -12,4 +12,5 @@ extern Pieza *pieza_siguiente_1;
 extern Pieza *pieza_siguiente_2;
 extern Pieza *pieza_siguiente_3;
 Pieza *devolver_pieza_aleatoria();
+Pieza *clonar_por_nombre(const char *nombre);
 #endif //BOLSA_PIEZAS_H

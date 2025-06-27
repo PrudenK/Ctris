@@ -14,9 +14,11 @@ CMakeFiles/Ctris.dir/metodos/hold/holdear.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
+ /home/pruden/CLionProjects/Ctris/metodos/bolsa_piezas/bolsa_piezas.h \
+ /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
  /home/pruden/CLionProjects/Ctris/utils/constantes.h \
  /home/pruden/CLionProjects/Ctris/utils/../piezas/Pieza.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
  /home/pruden/CLionProjects/Ctris/tablero/crear_tablero.h \
  /home/pruden/CLionProjects/Ctris/piezas/Pieza_I.h \
  /home/pruden/CLionProjects/Ctris/piezas/Pieza.h \
@@ -26,5 +28,4 @@ CMakeFiles/Ctris.dir/metodos/hold/holdear.c.o: \
  /home/pruden/CLionProjects/Ctris/piezas/Pieza_S.h \
  /home/pruden/CLionProjects/Ctris/piezas/Pieza_T.h \
  /home/pruden/CLionProjects/Ctris/piezas/Pieza_Z.h \
- /home/pruden/CLionProjects/Ctris/metodos/teclado/teclado.h \
- /home/pruden/CLionProjects/Ctris/piezas/Pieza.h
+ /home/pruden/CLionProjects/Ctris/metodos/teclado/teclado.h

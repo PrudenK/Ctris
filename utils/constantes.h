@@ -19,5 +19,5 @@ extern int TIEMPO_CAIDA;
 extern Pieza *pieza;
 extern Pieza *pieza_hold;
 extern bool puedes_holdear;
-
+extern Pieza *copia_pieza_hold;
 #endif //CONSTANTES_H
