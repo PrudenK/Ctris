@@ -11,31 +11,31 @@
 			"cmake" : "/home/pruden/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake",
 			"cpack" : "/home/pruden/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cpack",
 			"ctest" : "/home/pruden/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/ctest",
-			"root" : "/home/pruden/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.31"
+			"root" : "/home/pruden/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-4.0"
 		},
 		"version" : 
 		{
 			"isDirty" : false,
-			"major" : 3,
-			"minor" : 31,
-			"patch" : 6,
-			"string" : "3.31.6",
+			"major" : 4,
+			"minor" : 0,
+			"patch" : 2,
+			"string" : "4.0.2",
 			"suffix" : ""
 		}
 	},
 	"objects" : 
 	[
 		{
-			"jsonFile" : "codemodel-v2-bf27bc4d07297c847025.json",
+			"jsonFile" : "codemodel-v2-922f5b749b2d9d89e0e7.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
 				"major" : 2,
-				"minor" : 7
+				"minor" : 8
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-390dfeb56da02d935e65.json",
+			"jsonFile" : "cache-v2-6143aa06e7eea0d43c0d.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -44,7 +44,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cmakeFiles-v1-895fd8bf9e8ddece2551.json",
+			"jsonFile" : "cmakeFiles-v1-0690b1cf79f51c8f22ad.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -66,7 +66,7 @@
 	{
 		"cache-v2" : 
 		{
-			"jsonFile" : "cache-v2-390dfeb56da02d935e65.json",
+			"jsonFile" : "cache-v2-6143aa06e7eea0d43c0d.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -76,7 +76,7 @@
 		},
 		"cmakeFiles-v1" : 
 		{
-			"jsonFile" : "cmakeFiles-v1-895fd8bf9e8ddece2551.json",
+			"jsonFile" : "cmakeFiles-v1-0690b1cf79f51c8f22ad.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -86,12 +86,12 @@
 		},
 		"codemodel-v2" : 
 		{
-			"jsonFile" : "codemodel-v2-bf27bc4d07297c847025.json",
+			"jsonFile" : "codemodel-v2-922f5b749b2d9d89e0e7.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
 				"major" : 2,
-				"minor" : 7
+				"minor" : 8
 			}
 		},
 		"toolchains-v1" : 
